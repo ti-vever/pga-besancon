@@ -1,0 +1,1910 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: yourself theme\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-03-15 11:59+0100\n"
+"PO-Revision-Date: 2012-03-16 10:59+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:14
+#: ../index.php:100
+#: ../page.php:55
+#: ../single.php:77
+#: ../template-archive.php:58
+msgid "Error 404 - Not Found"
+msgstr "Error 404 - Página no encontrada"
+
+#: ../404.php:17
+#: ../index.php:103
+#: ../page.php:58
+#: ../single.php:80
+#: ../template-archive.php:61
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr "Lo sentimos, lo que está buscado no está aquí."
+
+#: ../archive.php:24
+#: ../index.php:56
+#: ../options.php:1038
+#: ../search.php:24
+#: ../single.php:40
+msgid "By"
+msgstr "Por"
+
+#: ../archive.php:26
+#: ../comments.php:27
+#: ../index.php:58
+#: ../options.php:1050
+#: ../search.php:26
+#: ../single.php:42
+msgid "No Comments"
+msgstr "Sin comentarios"
+
+#: ../archive.php:26
+#: ../comments.php:27
+#: ../index.php:58
+#: ../options.php:1056
+#: ../search.php:26
+#: ../single.php:42
+msgid "1 Comment"
+msgstr "1 Comentario"
+
+#: ../archive.php:26
+#: ../comments.php:27
+#: ../index.php:58
+#: ../options.php:1062
+#: ../options.php:1082
+#: ../search.php:26
+#: ../single.php:42
+#: ../lib/widgets/widget-tabs.php:44
+#: ../lib/widgets/widget-tabs.php:222
+msgid "Comments"
+msgstr "Comentarios"
+
+#: ../archive.php:45
+#: ../index.php:91
+#: ../search.php:45
+msgid "&larr; Older Entries"
+msgstr "&larr; Entradas Anteriores"
+
+#: ../archive.php:46
+#: ../index.php:92
+#: ../search.php:46
+msgid "Newer Entries &rarr;"
+msgstr "Nuevas Entradas &rarr;"
+
+#: ../archive.php:54
+#: ../options.php:1171
+#: ../options.php:1174
+#: ../includes/heading-tagline.php:74
+msgid "Archive"
+msgstr "Archivo"
+
+#: ../archive.php:57
+msgid "Sorry, but your search did not return any results. Please take a look of our archive: "
+msgstr "Lo sentimos, su resultado no ha obtenido ningún resultado. Por favor eche un vistazo a nuestro archivo:"
+
+#: ../archive.php:58
+#: ../template-archive.php:32
+msgid "Last 10 Posts:"
+msgstr "Últimos 10 Posts:"
+
+#: ../archive.php:65
+#: ../options.php:1210
+#: ../template-archive.php:39
+msgid "Archives by Month:"
+msgstr "Archivo por Mes:"
+
+#: ../archive.php:69
+#: ../options.php:1216
+#: ../template-archive.php:43
+msgid "Archives by Category:"
+msgstr "Archivo por Categoría:"
+
+#: ../comments.php:10
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "El post está protegido con contraseña. Por favor introduzca su contraseña para ver los comentarios."
+
+#: ../comments.php:37
+#: ../options.php:1097
+msgid "Trackbacks for this post"
+msgstr "Trackbacks para este post"
+
+#: ../comments.php:57
+msgid "Comments are closed."
+msgstr "Los comentarios están cerrados."
+
+#: ../comments.php:73
+#: ../options.php:1103
+msgid "Leave a Comment"
+msgstr "Deje un comentario"
+
+#: ../comments.php:73
+#: ../options.php:1109
+msgid "Leave a Comment to"
+msgstr "Deje un comentario para"
+
+#: ../comments.php:79
+msgid "Make sure you enter the required information where indicated. Comments are moderated and nofollow is in use. Please no link dropping, no keywords or domains as names, do not spam, and do not advertise!"
+msgstr "Por favor asegúrese de introducir la información requerida. Los comentarios serán moderados y se pondrá un nofollow a todos los enlaces introducidos. Por favor no haga spam, publicidad, ni introduzca enlaces a otros sitios web."
+
+#: ../comments.php:83
+#, php-format
+msgid "You must be %1$slogged in%2$s to post a comment."
+msgstr ""
+
+#: ../comments.php:92
+#, php-format
+msgid "Logged in as %1$s. %2$sLog out &raquo;%3$s"
+msgstr ""
+
+#: ../comments.php:92
+msgid "Log out of this account"
+msgstr "Desconectarse de esta cuenta"
+
+#: ../comments.php:98
+#: ../options.php:1133
+#: ../options.php:1233
+#: ../template-contact.php:30
+#: ../lib/widgets/widget-contact.php:33
+msgid "Name"
+msgstr "Nombre"
+
+#: ../comments.php:98
+#: ../comments.php:103
+msgid " *"
+msgstr ""
+
+#: ../comments.php:103
+#: ../options.php:1139
+#: ../options.php:1239
+#: ../template-contact.php:37
+#: ../lib/widgets/widget-contact.php:37
+msgid "Email"
+msgstr "Email"
+
+#: ../comments.php:108
+#: ../options.php:1145
+msgid "Website"
+msgstr "Sitio Web"
+
+#: ../comments.php:118
+#: ../options.php:1151
+msgid "Submit Comment"
+msgstr "Añadir un comentario"
+
+#: ../footer.php:99
+msgid "Proudly powered by"
+msgstr ""
+
+#: ../index.php:52
+#: ../options.php:1032
+msgid "Read more"
+msgstr "Continuar leyendo"
+
+#: ../options.php:82
+msgid "General Settings"
+msgstr "Opciones Generales"
+
+#: ../options.php:85
+msgid "Logo Settings"
+msgstr "Logotipo"
+
+#: ../options.php:86
+msgid "You can choose between uploading your custom logo or displaying your site title."
+msgstr "Puede elegir entre subir su propio logotipo o mostrar el nombre de su sitio web."
+
+#: ../options.php:91
+msgid "Custom Logo"
+msgstr "Su propio logotipo"
+
+#: ../options.php:92
+msgid "Site Title"
+msgstr "Título de su web"
+
+#: ../options.php:94
+msgid "Logo"
+msgstr "Logo"
+
+#: ../options.php:95
+msgid "Upload a logo for your site, or specify the image address of your online logo. (http://www.example.com/logo.png)"
+msgstr "Suba el logotipo a mostrar o especifique la dirección URL de su logotipo. Por ejemplo http://www.ejemplo.com/logo.png"
+
+#: ../options.php:100
+msgid "Logo/Title Alignment"
+msgstr "Alineación del Logo/Título"
+
+#: ../options.php:101
+msgid "Select the alignment of your site title or custom logo."
+msgstr "Seleccione la alineación del logotipo o título de su sitio web."
+
+#: ../options.php:106
+msgid "Left"
+msgstr "Izquierda"
+
+#: ../options.php:107
+msgid "Center"
+msgstr "Centrado"
+
+#: ../options.php:108
+msgid "Right"
+msgstr "Derecha"
+
+#: ../options.php:110
+msgid "Logo/Title Margin"
+msgstr "Margen Logo/Título"
+
+#: ../options.php:111
+msgid "Set the top and bottom margins for the logo/site title. Allowed values between 0 and 500."
+msgstr "Introduzca el margen superior e inferior del logotipo o título. Se permiten valores numéricos entre 0 y 500."
+
+#: ../options.php:118
+msgid "Favicon"
+msgstr "Favicon"
+
+#: ../options.php:119
+msgid "Upload a 16px x 16px Png/Gif image to be displayed as your website favicon."
+msgstr "Suba una imagen de 16x16 pixeles para usar como favicon de sus sitio web. El favicon es una pequeña imagen que se muestra en la parte superior del navegador, así como en las pestañas de navegación."
+
+#: ../options.php:123
+msgid "Enable Social Icons"
+msgstr "Activar Iconos Sociales"
+
+#: ../options.php:124
+msgid "Check this to enable header social icons. The displayed icons can be configured via Social Tab."
+msgstr "Active esta opción para habilitar los iconos de las diferentes redes sociales en la parte superior de cada una de las págians de su sitio web. Los iconos a mostrar pude modificarlos en la pestaña Social de este mismo panel de opciones."
+
+#: ../options.php:130
+#: ../options.php:1571
+msgid "Icons Style"
+msgstr "Estilo de los iconos"
+
+#: ../options.php:131
+#: ../options.php:1572
+msgid "Choose the color style of social profile icons."
+msgstr "Seleccione el color de los iconos."
+
+#: ../options.php:141
+#: ../options.php:851
+#: ../options.php:1537
+msgid "Layout"
+msgstr "Estructura"
+
+#: ../options.php:142
+msgid "Select the default layout for your site. You can customize the layout for every post and page via custom fields."
+msgstr "Seleccione la estructura por defecto para su sitio web. Recuerde que puede modificar la estructura de cada página/post de su sitio web haciendo uso de los campos personalizados que encontrará debajo del editor cada vez que cree/edite una nueva página o post."
+
+#: ../options.php:148
+msgid "Contact Form Email"
+msgstr "Email de contacto"
+
+#: ../options.php:149
+msgid "Enter the email address where you'd like to receive emails from the contact form, or leave blank to use admin email."
+msgstr "Introduzca el correo electrónico en el que desea recibir los mensajes de los usuarios que se pongan en contacto con usted a través del formulario de contacto."
+
+#: ../options.php:154
+msgid "Header Code"
+msgstr "Código de cabecera"
+
+#: ../options.php:155
+#: ../options.php:160
+msgid "The code pasted here will be included before the tag of each page. You can paste in your tracking codes, script and/or style includes."
+msgstr "El código que pegue aquí se mostrará antes del cierre de etiqueta de página, bien sea en la parte superior o inferior de su página web. Pegue aquí código css, javascript, códigos de análisis y seguimiento como Google analytics, etc."
+
+#: ../options.php:159
+msgid "Footor Code"
+msgstr "Código de pie de página"
+
+#: ../options.php:166
+msgid "Skins"
+msgstr "Estilos"
+
+#: ../options.php:169
+msgid "Skin Manager"
+msgstr "Generador de estilos"
+
+#: ../options.php:170
+msgid "Use default style or customize your own style."
+msgstr "Use el estilo por defecto o cree su propio estilo."
+
+#: ../options.php:175
+msgid "Default"
+msgstr "Por defecto"
+
+#: ../options.php:176
+msgid "Customize"
+msgstr "Personalizable"
+
+#: ../options.php:178
+msgid "Customize your own Skin"
+msgstr "Personalice su propio estilo"
+
+#: ../options.php:182
+#: ../options.php:287
+#: ../options.php:353
+#: ../options.php:423
+msgid "Typography"
+msgstr "Tipografía"
+
+#: ../options.php:185
+msgid "Body Font"
+msgstr "Tipografía del cuerpo de página"
+
+#: ../options.php:191
+msgid "H1 Font"
+msgstr "Tipografía del encabezado H1"
+
+#: ../options.php:197
+msgid "H2 Font"
+msgstr "Tipografía del encabezado H2"
+
+#: ../options.php:203
+msgid "H3 Font"
+msgstr "Tipografía del encabezado H3"
+
+#: ../options.php:209
+msgid "H4 Font"
+msgstr "Tipografía del encabezado H4"
+
+#: ../options.php:215
+msgid "H5 Font"
+msgstr "Tipografía del encabezado H5"
+
+#: ../options.php:221
+msgid "H6 Font"
+msgstr "Tipografía del encabezado H6"
+
+#: ../options.php:227
+#: ../options.php:365
+#: ../options.php:435
+#: ../options.php:812
+#: ../options.php:877
+#: ../options.php:965
+msgid "Link"
+msgstr "Enlace"
+
+#: ../options.php:233
+#: ../options.php:299
+#: ../options.php:371
+#: ../options.php:441
+msgid "Link Hover"
+msgstr "Enlace al pasar por encima"
+
+#: ../options.php:241
+msgid "Body"
+msgstr "Cuerpo de la página"
+
+#: ../options.php:244
+msgid "Body Background"
+msgstr "Fondo del cuerpo de la página"
+
+#: ../options.php:252
+msgid "Header"
+msgstr "Encabezado"
+
+#: ../options.php:255
+msgid "General"
+msgstr "General"
+
+#: ../options.php:258
+msgid "Header Background"
+msgstr "Fondo del encabezado"
+
+#: ../options.php:264
+msgid "Border Bottom"
+msgstr "Borde inferior"
+
+#: ../options.php:270
+msgid "Shadow Bottom"
+msgstr "Sombreado inferior "
+
+#: ../options.php:278
+msgid "Menu"
+msgstr "Menu"
+
+#: ../options.php:281
+msgid "Logo Typography"
+msgstr "Tipografía del logotipo"
+
+#: ../options.php:293
+#: ../options.php:359
+#: ../options.php:400
+#: ../options.php:429
+msgid "Typography Shadow"
+msgstr "Sombreado de la tipografía"
+
+#: ../options.php:307
+msgid "Dropdown Menu"
+msgstr "Menu descendente"
+
+#: ../options.php:310
+#: ../options.php:335
+#: ../options.php:382
+#: ../options.php:417
+#: ../options.php:467
+msgid "Background"
+msgstr "Fondo"
+
+#: ../options.php:316
+#: ../options.php:341
+#: ../options.php:388
+msgid "Border"
+msgstr "Borde"
+
+#: ../options.php:322
+#: ../options.php:347
+#: ../options.php:394
+msgid "Shadow"
+msgstr "Sombra"
+
+#: ../options.php:332
+msgid "Subheader"
+msgstr "Sub-encabezado"
+
+#: ../options.php:379
+msgid "Main content"
+msgstr "Contenido principal"
+
+#: ../options.php:406
+msgid "Delimiters color"
+msgstr "Delimitadores"
+
+#: ../options.php:414
+#: ../options.php:1527
+msgid "Footer"
+msgstr "Pie de página"
+
+#: ../options.php:447
+msgid "Headers Color"
+msgstr "Colores de encabezado"
+
+#: ../options.php:453
+msgid "Delimiters Color"
+msgstr "Color de los delimitadores"
+
+#: ../options.php:461
+msgid "Miscellaneous"
+msgstr "Otros"
+
+#: ../options.php:464
+msgid "Social Footer"
+msgstr "Pie de página social"
+
+#: ../options.php:473
+msgid "Typography Color"
+msgstr "Color de la tipografía"
+
+#: ../options.php:479
+msgid "Social Link Hover"
+msgstr "Enlace de las redes social al pasar por encima"
+
+#: ../options.php:487
+msgid "Content Forms"
+msgstr "Contenido de los formularios"
+
+#: ../options.php:490
+#: ../options.php:507
+msgid "Borders"
+msgstr "Bordes"
+
+#: ../options.php:496
+#: ../options.php:513
+msgid "Background Color"
+msgstr "Color de fondo"
+
+#: ../options.php:504
+msgid "Footer Forms"
+msgstr "Formularios del pie de página"
+
+#: ../options.php:528
+msgid "Homepage"
+msgstr "Página principal"
+
+#: ../options.php:531
+msgid "Homepage Layout"
+msgstr "Estructura de la página principal"
+
+#: ../options.php:532
+msgid "Select the layout for your homepage site."
+msgstr "Seleccione la estructura de la página principal de su sitio web."
+
+#: ../options.php:538
+msgid "Enable Homepage Slider"
+msgstr "Active el slider de la página principal"
+
+#: ../options.php:539
+msgid "Check this to enable a homepage slider."
+msgstr "Active esta opción para habilitar el slider de la página principal."
+
+#: ../options.php:545
+msgid "Choose slider"
+msgstr "Elija un slider"
+
+#: ../options.php:546
+msgid "Select a slider created previously using the Slider Manager. If you don't have sliders listed  you must create a new one in order to choose it."
+msgstr "Seleccione un slider de los que haya creado previamente con el generador de sliders. Si todavía no ha creado ningún slider puede hacerlo a través de la pestaña Sliders situada en este mismo panel de opciones.  "
+
+#: ../options.php:552
+msgid "Enable Call To Action"
+msgstr "Active la llamada a la acción"
+
+#: ../options.php:553
+msgid "Check if you want to display call to action option."
+msgstr "Active esta opción si quiere activar la llamada a la acción del usuario. Esta llamada a la acción esta compuesta por un título, un texto y un botón para redirigir al destino deseado. "
+
+#: ../options.php:559
+msgid "Call To Action Settings"
+msgstr "Opciones de la llamada a la acción"
+
+#: ../options.php:563
+#: ../options.php:806
+#: ../options.php:865
+#: ../options.php:953
+msgid "Title"
+msgstr "Título"
+
+#: ../options.php:564
+msgid "Define a title for a call to action."
+msgstr "Defina un título para la llamada a la acción."
+
+#: ../options.php:568
+#: ../options.php:871
+#: ../options.php:959
+msgid "Description"
+msgstr "Descripción"
+
+#: ../options.php:569
+msgid "Define a description for a call to action."
+msgstr "Defina una descripción para la llamada a la acción"
+
+#: ../options.php:573
+msgid "Button Text"
+msgstr "Texto del botón"
+
+#: ../options.php:574
+msgid "Define the anchor text for the button."
+msgstr "Defina el texto a mostrar en el botón."
+
+#: ../options.php:578
+msgid "Button URL"
+msgstr "Dirección URL del botón"
+
+#: ../options.php:579
+msgid "Define the URL where the user is redirected when clicking the button."
+msgstr "Introduzca la URL  a la que será redirigido el usuario al hacer click en el botón."
+
+#: ../options.php:588
+#: ../options.php:1029
+msgid "Blog"
+msgstr "Blog"
+
+#: ../options.php:591
+msgid "Blog Style"
+msgstr "Estilo del Blog"
+
+#: ../options.php:592
+msgid "Select the style for your blog page."
+msgstr "Seleccione el estilo para el blog de su página web."
+
+#: ../options.php:598
+msgid "Blog Layout"
+msgstr "Estructura del Blog"
+
+#: ../options.php:599
+msgid "Select the layout for your blog page."
+msgstr "Seleccione la estructura del blog"
+
+#: ../options.php:605
+msgid "Blog Sidebar"
+msgstr "Sidebar del Blog"
+
+#: ../options.php:606
+msgid "You can choose as many sidebars as you like, assigning them as needed to each of the pages and posts on your website. Remember you may create as many sidebars as you want using Theme Options - Sidebars."
+msgstr "Puede seleccionar la barra lateral que desee, teniendo en cuenta que puede asignar a cada página o post de su sitio web una sidebar distinta. Para ello debe crear previamente las barras laterales a través de la opción Sidebars ubicada en este mismo panel de opciones."
+
+#: ../options.php:611
+msgid "Enable Submenu "
+msgstr "Active el Sumbenu"
+
+#: ../options.php:612
+msgid "Check if you want enable submenu nav. To configure it, go to Appearance - Menus."
+msgstr "Activar esta opción para habilitar el menú secundario de navegación. Una vez activado, puede configurar dicho menú a través de Apariencia – Menus."
+
+#: ../options.php:617
+msgid "Enable Blog Slider"
+msgstr "Active el Slider del Blog"
+
+#: ../options.php:618
+msgid "Check to enable a blog slider."
+msgstr "Active esta opción para habilitar el slider que mostrará los posts destacados."
+
+#: ../options.php:624
+#: ../options.php:704
+msgid "Slider Settings"
+msgstr "Opciones del Slider"
+
+#: ../options.php:628
+msgid "No. of Slides"
+msgstr "Número de Slides"
+
+#: ../options.php:629
+msgid "Select how many slides you want to display. Insert a value between 0 and 50. If you want to display all featured posts set the value to 0."
+msgstr "Introduzca el número de posts destacados que desea mostrar en el slider. En caso de querer mostrar todos los posts marcados como destacados introduzca el valor 0."
+
+#: ../options.php:636
+msgid "Image Height"
+msgstr "Altura de la imagen"
+
+#: ../options.php:637
+msgid "Set the height of your slider between 5 and 900"
+msgstr "Introduzca la altura de la imagen del slider. Se permiten valores entre 5 y 900"
+
+#: ../options.php:644
+#: ../options.php:715
+#: ../options.php:782
+#: ../options.php:833
+msgid "Transition Effect"
+msgstr "Efecto de transición"
+
+#: ../options.php:645
+msgid "Choose the transition effect between different slides."
+msgstr "Seleccione el efecto de transición entre las diferentes diapositivas."
+
+#: ../options.php:650
+#: ../options.php:721
+#: ../options.php:789
+#: ../options.php:840
+#: ../options.php:922
+msgid "Pause Time"
+msgstr "Tiempo de espera"
+
+#: ../options.php:651
+msgid "Set the time between slides. Choose a value in milliseconds between 0 and 60000. To make manual transitions set the value to 0. Remember that 1 second = 1000 milliseconds."
+msgstr "Seleccione un valor en milisegundos  entre 0 y 60000 para definir el tiempo transcurrido entre diapositivas. Para hacer transiciones manuales introduzca como valor 0. Recuerde que 1 segundo = 1000 milisegundos. "
+
+#: ../options.php:660
+msgid "Individual Posts Settings"
+msgstr "Opciones de los posts individuales"
+
+#: ../options.php:661
+msgid "The following options apply to individual blog posts."
+msgstr "Las siguientes opciones se aplican a los posts individuales."
+
+#: ../options.php:664
+msgid "Enable Featured Image"
+msgstr "Active la imagen destacada"
+
+#: ../options.php:665
+msgid "Check to display the featured image at the beginning of the post."
+msgstr "Seleccione esta opción para mostrar la imagen destacada al comienzo del post."
+
+#: ../options.php:670
+msgid "Enable Author Bio"
+msgstr "Active la biografía del autor"
+
+#: ../options.php:671
+msgid "Check to display the author bio at the end of the post."
+msgstr "Active esta opción para mostrar la biografía del autor al final de cada post."
+
+#: ../options.php:676
+msgid "Overview excerpt"
+msgstr "Información general sobre el resumen"
+
+#: ../options.php:677
+msgid "Do you want the excerpt on the blog page to end automatically or according to the More Tag or Excerpt field, wich can be set manually by you when you edit a post?"
+msgstr "Desea mostrar el resumen del post haciendo uso de la etiqueta more o prefiere un resumen automático sin tener que usar dicha etiqueta en cada uno de los posts."
+
+#: ../options.php:682
+msgid "Auto excerpt"
+msgstr "Resúmenes automáticos"
+
+#: ../options.php:683
+msgid "Manually insert more tag or excerpt field"
+msgstr "Insertar manualmente la etiqueta more en cada post"
+
+#: ../options.php:685
+msgid "Excerpt Length"
+msgstr "Tamaño del resumen"
+
+#: ../options.php:686
+msgid "How many words should the auto excerpt show on the blog page (overview)?"
+msgstr "De cuantas palabras quiere que sea el resumen de cada post mostrado en la página principal del blog."
+
+#: ../options.php:695
+msgid "Portfolio"
+msgstr "Portfolio"
+
+#: ../options.php:698
+msgid "Enable Lightbox"
+msgstr "Activar Lightbox "
+
+#: ../options.php:699
+msgid "Check to enable the lightbox effect for the portfolio items preview."
+msgstr "Active esta opción para mostrar una vista previa de sus proyectos al hacer click sobre la imagen destacada. "
+
+#: ../options.php:707
+#: ../options.php:773
+#: ../options.php:824
+#: ../options.php:895
+msgid "Height"
+msgstr "Altura"
+
+#: ../options.php:708
+#: ../options.php:774
+#: ../options.php:825
+#: ../options.php:896
+msgid "Set the height of your slider between 5 and 900."
+msgstr "Establezca la altura de las diapositivas entre 5 y 900."
+
+#: ../options.php:716
+#: ../options.php:783
+#: ../options.php:834
+msgid "Choose the transition effect between diferent sliders."
+msgstr "Seleccione el efecto de transición entre las diferentes diapositivas"
+
+#: ../options.php:722
+#: ../options.php:790
+#: ../options.php:841
+msgid "Set the time between slides. Choose a value in milliseconds between 0 and 60000. Remember that 1 second = 1000 milliseconds."
+msgstr "Establezca el tiempo a transcurrir entre las diapositivas del slider. Se permiten valores estre 0 y 60000. Recuerde que 1 segundo = 1000 milisegundos."
+
+#: ../options.php:731
+msgid "Enable Related Portfolio"
+msgstr "Mostrar proyectos relacionados"
+
+#: ../options.php:732
+msgid "Enable related projects."
+msgstr "Mostrar proyectos relacionados"
+
+#: ../options.php:738
+msgid "Related Portfolio Settings"
+msgstr "Opciones de los proyectos relacionados"
+
+#: ../options.php:742
+msgid "Related Portfolio Title"
+msgstr "Título de los proyectos relacionados"
+
+#: ../options.php:743
+msgid "The title to related portfolio items."
+msgstr "El título para los proyectos relacionados"
+
+#: ../options.php:747
+msgid "No. of Related Portfolio Items"
+msgstr "Número de proyectos relacionados"
+
+#: ../options.php:748
+msgid "Define how many related portfolio items are displayed in the sidebar. Values can be between 1 and 30."
+msgstr "Establezca el número de proyectos relacionados a mostrar en la barra lateral. Puede mostrar entre 1 y 30 proyectos."
+
+#: ../options.php:759
+msgid "Sliders"
+msgstr "Sliders"
+
+#: ../options.php:762
+msgid "Slider Manager"
+msgstr "Generador de Sliders"
+
+#: ../options.php:763
+msgid "Create a new slider for your site. Click create a slider and follow the options."
+msgstr "Cree un nuevo Slider para su sitio web. Para ello defina un nombre y haga click en el botón."
+
+#: ../options.php:769
+msgid "Nivo Slider"
+msgstr ""
+
+#: ../options.php:800
+msgid "Image URL"
+msgstr "URL de la imagen"
+
+#: ../options.php:801
+msgid "Url to the image file for this slide."
+msgstr "Introduzca la URL de la imagen a mostrar en la dipositiva"
+
+#: ../options.php:807
+#: ../options.php:866
+#: ../options.php:954
+msgid "Optional - Add a title to your slide"
+msgstr "Opcional – Añada un título a su diapositiva"
+
+#: ../options.php:813
+#: ../options.php:878
+#: ../options.php:966
+msgid "Optional - Link to an url when your slide is clicked"
+msgstr "Opcional – Añada un enlace para dirigir al usuario cuando éste haga click."
+
+#: ../options.php:820
+msgid "Cycle Slider"
+msgstr ""
+
+#: ../options.php:852
+msgid "Select slider layout."
+msgstr "Defina la estructura de la diapositiva"
+
+#: ../options.php:859
+msgid "Image or Video URL"
+msgstr "URL de la imagen o el Vídeo"
+
+#: ../options.php:860
+msgid "Url to the image file for this slide or Vimeo/YouTube url."
+msgstr "Introduzca la dirección URL de la imagen o el vídeo de Vimeo o Youtube que desea mostrar en la diapositiva."
+
+#: ../options.php:872
+#: ../options.php:960
+msgid "Optional - Add a description to your slide"
+msgstr "Opcional – Añada una descripción a su diapositiva."
+
+#: ../options.php:883
+msgid "Anchor"
+msgstr "Texto ancla"
+
+#: ../options.php:884
+msgid "Optional - Link anchor text"
+msgstr "Opcional – Enlace del texto ancla"
+
+#: ../options.php:891
+msgid "3D Slider"
+msgstr ""
+
+#: ../options.php:904
+msgid "Width"
+msgstr "Anchura"
+
+#: ../options.php:905
+msgid "Set the width of your slider between 5 and 940"
+msgstr "Establezca la anchura de su diapositiva entre 5 y 940"
+
+#: ../options.php:913
+msgid "No. of piezes"
+msgstr "Número de piezas"
+
+#: ../options.php:914
+msgid "Number of pieces to which the item is sliced. Range between 1 and 50"
+msgstr "Número de piezas en que se dividirá la diapositiva antes de pasar a la siguientes. Establezca un valor entre 1 y 50."
+
+#: ../options.php:923
+msgid "Set the time between slides. Choose a value in seconds between 0 and 19."
+msgstr "Establezca el tiempo entre diapositivas. Establezca un valor en segundos entre 0 y 19."
+
+#: ../options.php:933
+msgid "File Type"
+msgstr "Tipo de archivo"
+
+#: ../options.php:934
+msgid "Select the file type for this slide."
+msgstr "Seleccione el tipo de archivo para esta dispositiva."
+
+#: ../options.php:941
+msgid "File URL"
+msgstr "URL del archivo"
+
+#: ../options.php:942
+msgid "Url to image, video or flash file."
+msgstr "Dirección URL de la imagen o archivo flash."
+
+#: ../options.php:947
+msgid "Image preview URL"
+msgstr "Dirección URL de la imagen de vista previa."
+
+#: ../options.php:948
+msgid "Use image preview only with flash files."
+msgstr "Use la imagen de vista previa sólo en caso de usar archivos de tipo flash."
+
+#: ../options.php:978
+msgid "Sidebars"
+msgstr "Sidebars"
+
+#: ../options.php:981
+msgid "Sidebar Manager"
+msgstr "Generador de Sidebars"
+
+#: ../options.php:982
+msgid "Create a new sidebar for your site. Insert a name and click the button."
+msgstr "Cree una nueva sidebar para su sitio web. Inserte el nombre y haga click en el botón."
+
+#: ../options.php:990
+msgid "Social"
+msgstr "Social"
+
+#: ../options.php:998
+msgid "Profile URL"
+msgstr "Dirección URL del perfil"
+
+#: ../options.php:1002
+msgid "Caption Text"
+msgstr "Texto de captación"
+
+#: ../options.php:1014
+msgid "Translation"
+msgstr "Traducción"
+
+#: ../options.php:1017
+msgid "Translation type"
+msgstr "Tipo de traducción"
+
+#: ../options.php:1018
+msgid "Check .mo files if you want to use these files for the theme translation. For example en_US for the english version or es_ES to translate to Spanish"
+msgstr "Seleccione la opción ficheros .mo si desea usar este tipo de fichero para la traducción del tema. Por ejemplo en_US para la versión en Inglés o es_ES para la versión Española"
+
+#: ../options.php:1023
+msgid "Using .mo files"
+msgstr "Usar ficheros .mo"
+
+#: ../options.php:1024
+msgid "Do it yourself below"
+msgstr "Tradúzcalo usted mismo a continuación"
+
+#: ../options.php:1026
+msgid "Do it yourself"
+msgstr "Tradúzcalo usted mismo"
+
+#: ../options.php:1044
+#: ../single.php:58
+msgid "About the author"
+msgstr "Acerca del autor"
+
+#: ../options.php:1068
+msgid "Newer Entries"
+msgstr "Nuevas Entradas"
+
+#: ../options.php:1074
+msgid "Older Entries"
+msgstr "Entradas Anteriores"
+
+#: ../options.php:1085
+msgid "Password Protected"
+msgstr "Protegido mediante contraseña"
+
+#: ../options.php:1091
+msgid "Comments are closed"
+msgstr "Los comentarios están cerrados"
+
+#: ../options.php:1115
+msgid "Says"
+msgstr "Dice "
+
+#: ../options.php:1121
+msgid "At"
+msgstr "a"
+
+#: ../options.php:1127
+msgid "Reply"
+msgstr "Responder"
+
+#: ../options.php:1157
+msgid "Awaiting moderation"
+msgstr "A la espera de moderación"
+
+#: ../options.php:1163
+msgid "Before commenting"
+msgstr "Antes de comentar"
+
+#: ../options.php:1180
+#: ../includes/heading-tagline.php:70
+msgid "Category:"
+msgstr "Categoría"
+
+#: ../options.php:1186
+#: ../includes/heading-tagline.php:72
+msgid "Tag:"
+msgstr "Etiqueta:"
+
+#: ../options.php:1192
+msgid "Author"
+msgstr "Autor"
+
+#: ../options.php:1198
+msgid "Portfolio: All categories"
+msgstr "Portfolio: Todas las categorías "
+
+#: ../options.php:1204
+msgid "Last 10 Posts"
+msgstr "Los últimos 10 Posts"
+
+#: ../options.php:1222
+msgid "Empty Archive"
+msgstr "Archivo vacío"
+
+#: ../options.php:1230
+msgid "Contact"
+msgstr "Contacto"
+
+#: ../options.php:1245
+msgid "Name: Error"
+msgstr "Nombre: Error"
+
+#: ../options.php:1251
+msgid "Email: Error"
+msgstr "Email: Error"
+
+#: ../options.php:1257
+msgid "Message: Error"
+msgstr "Mensaje: Error"
+
+#: ../options.php:1263
+#: ../template-contact.php:49
+#: ../lib/widgets/widget-contact.php:47
+msgid "Submit Email"
+msgstr "Enviar Email"
+
+#: ../options.php:1269
+msgid "Email Sent"
+msgstr "Email enviado"
+
+#: ../options.php:1277
+#: ../options.php:1286
+#: ../lib/widgets/widget-login.php:53
+msgid "Login"
+msgstr "Iniciar sesión"
+
+#: ../options.php:1280
+#: ../lib/widgets/widget-login.php:61
+msgid "Register"
+msgstr "Registrarse"
+
+#: ../options.php:1292
+#: ../lib/widgets/widget-login.php:42
+msgid "User"
+msgstr "Usuario"
+
+#: ../options.php:1298
+#: ../lib/widgets/widget-login.php:46
+msgid "Password"
+msgstr "Contraseña"
+
+#: ../options.php:1304
+#: ../lib/widgets/widget-login.php:49
+msgid "Remember me"
+msgstr "Recordar"
+
+#: ../options.php:1310
+#: ../lib/widgets/widget-login.php:55
+msgid "Recover password"
+msgstr "Recuperar contraseña"
+
+#: ../options.php:1316
+#: ../lib/widgets/widget-login.php:34
+msgid "You are logged in as"
+msgstr "Está conectado como"
+
+#: ../options.php:1322
+msgid "Logout"
+msgstr "Desconectar"
+
+#: ../options.php:1330
+#: ../searchform.php:5
+msgid "Search"
+msgstr "Buscar"
+
+#: ../options.php:1333
+msgid "Search Text"
+msgstr "Texto de búsqueda"
+
+#: ../options.php:1339
+msgid "Search Button"
+msgstr "Texto del botón de búsqueda"
+
+#: ../options.php:1345
+msgid "Search Results"
+msgstr "Resultado de la búsqueda"
+
+#: ../options.php:1351
+msgid "Empty Search"
+msgstr "Búsqueda vacía"
+
+#: ../options.php:1359
+msgid "Errors"
+msgstr "Errores"
+
+#: ../options.php:1362
+msgid "Error 404: Title"
+msgstr "Error 404: Título"
+
+#: ../options.php:1368
+msgid "Error 404: Message"
+msgstr "Error 404: Mensaje"
+
+#: ../options.php:1381
+msgid "Image Resizing"
+msgstr "Tamaño de imágenes"
+
+#: ../options.php:1384
+msgid "Define the size of images"
+msgstr "Defina el tamaño de las imágenes"
+
+#: ../options.php:1385
+msgid "You can define the height of different images between 5 and 1500 px. The image width can not be modified."
+msgstr "Puede definir el tamaño de las imágenes entre 5 y 1500 pixeles. Tenga en cuenta que la anchura de las imágenes no puede ser modificada.  "
+
+#: ../options.php:1388
+msgid "Blog Images"
+msgstr "Imágenes del Blog"
+
+#: ../options.php:1391
+msgid "Blog Style 1"
+msgstr "Estilo de Blog 1"
+
+#: ../options.php:1392
+msgid "px Height - 940 px Width -OR- 620 px with Sidebar option"
+msgstr "px de altura – 940 de anchura o 620 px de anchura con la opción de sidebar."
+
+#: ../options.php:1400
+msgid "Blog Style 2"
+msgstr "Estilo de Blog 2"
+
+#: ../options.php:1401
+msgid "px Height - 105 px Width -OR- 200 px with Sidebar option"
+msgstr "px de altura – 105 de anchura o 200 px de anchura con la opción de sidebar."
+
+#: ../options.php:1409
+msgid "Blog Style 3"
+msgstr "Estilo de Blog 3"
+
+#: ../options.php:1410
+msgid "px Height - 300 px Width"
+msgstr "px de altura – 300 px de anchura."
+
+#: ../options.php:1418
+msgid "Single Post"
+msgstr "Posts individuales"
+
+#: ../options.php:1419
+#: ../options.php:1505
+msgid "px Height - 940 px Width"
+msgstr "px de altura – 940 px de anchura"
+
+#: ../options.php:1429
+msgid "Portfolio Images"
+msgstr "Imágenes del porfolio"
+
+#: ../options.php:1432
+msgid "One Column Portfolio"
+msgstr "Porfolio de una columna"
+
+#: ../options.php:1433
+msgid "px Height - 920 px Width"
+msgstr "px de altura – 920 px de anchura"
+
+#: ../options.php:1441
+msgid "One Column Portfolio with Sidebar"
+msgstr "Portfolio de una columna con sidebar"
+
+#: ../options.php:1442
+msgid "px Height - 600 px Width"
+msgstr "px de altura – 600 px de anchura"
+
+#: ../options.php:1450
+msgid "Two Columns Portfolio"
+msgstr "Portfolio de dos columnas"
+
+#: ../options.php:1451
+msgid "px Height - 450 px Width"
+msgstr "px de altura – 450 de anchura"
+
+#: ../options.php:1459
+msgid "Two Columns Portfolio with Sidebar"
+msgstr "Portfolio de dos columnas con sidebar"
+
+#: ../options.php:1460
+msgid "px Height - 290 px Width"
+msgstr "px de altura – 290 de anchura"
+
+#: ../options.php:1468
+msgid "Three Columns Portfolio"
+msgstr "Portfolio de tres columnas"
+
+#: ../options.php:1469
+#: ../options.php:1514
+msgid "px Height - 293 px Width"
+msgstr "px de altura – 293 px de anchura"
+
+#: ../options.php:1477
+msgid "Three Columns Portfolio with Sidebar"
+msgstr "Portfolio de tres columnas con sidebar"
+
+#: ../options.php:1478
+msgid "px Height - 186 px Width"
+msgstr "px de altura – 186 px de anchura"
+
+#: ../options.php:1486
+msgid "Four Columns Portfolio"
+msgstr "Portfolio de cuatro columnas"
+
+#: ../options.php:1487
+msgid "px Height - 215 px Width"
+msgstr "px de altura – 215 px de anchura"
+
+#: ../options.php:1495
+msgid "Four Columns Portfolio with Sidebar"
+msgstr "Portfolio de cuatro columnas con sidebar"
+
+#: ../options.php:1496
+msgid "px Height - 135 px Width"
+msgstr "px de altura – 135 px de anchura"
+
+#: ../options.php:1504
+msgid "Single Portfolio"
+msgstr "Portfolio individual"
+
+#: ../options.php:1513
+msgid "Portfolio Related"
+msgstr "Portfolio Relacionado"
+
+#: ../options.php:1530
+msgid "Enable Footer Widgets"
+msgstr "Habilitar widgets de pie de página "
+
+#: ../options.php:1531
+msgid "Check to enable footer widgets."
+msgstr "Active esta opción para insertar widgets en el pie de página de su sitio web."
+
+#: ../options.php:1538
+msgid "Select the layout for your footer widget area."
+msgstr "Seleccione la estructura del pie de página."
+
+#: ../options.php:1545
+msgid "Enable Social Area"
+msgstr "Activar área social"
+
+#: ../options.php:1546
+msgid "Check to enable the social footer area. To configure social icons and links go to the Social section."
+msgstr "Active esta opción para mostrar los iconos de las redes sociales en el pie de página de su sitio web. Para configurar los diferentes perfiles de las redes sociales vaya a la pestaña Social y configure las redes sociales que desea mostrar."
+
+#: ../options.php:1552
+msgid "Social Area Settings"
+msgstr "Opciones del área social"
+
+#: ../options.php:1556
+msgid "Call To Action"
+msgstr "Llamada a la acción"
+
+#: ../options.php:1557
+msgid "Define a call to action text to engage your user to contact you."
+msgstr "Defina el texto a utilizar para enganchar al usuario a que contacte con usted."
+
+#: ../options.php:1562
+msgid "Style"
+msgstr "Estilo"
+
+#: ../options.php:1563
+msgid "Choose if you want to display just the icons or icons with related text for each of them. This text attached to each icon can be defined in the Social tab."
+msgstr "Seleccione si desea mostrar sólo los iconos o si desea además mostrar un texto que acompañe a cada uno de ellos. Este texto se define a través de la pestaña Social presente en este mismo panel de opciones."
+
+#: ../options.php:1584
+msgid "Copyright Message"
+msgstr "Mensaje de Copyright"
+
+#: ../options.php:1589
+msgid "WordPress Credit"
+msgstr "Créditos de WordPress"
+
+#: ../options.php:1590
+msgid "Enable text: Proudly powered by WordPress"
+msgstr "Habilitar texto: Proudly powered by WordPress"
+
+#: ../options.php:1595
+msgid "Developer Credit"
+msgstr "desarrollador"
+
+#: ../options.php:1596
+msgid "Enable 'Developed by Marcos Fdez Villauriz'"
+msgstr "Mostrar 'Developed by Marcos Fdez Villauriz' "
+
+#: ../page.php:34
+#: ../single.php:33
+#: ../template-archive.php:27
+#: ../template-contact.php:69
+msgid "Edit this"
+msgstr "Editar esto"
+
+#: ../search.php:58
+msgid "Sorry, but your search did not return any results. Please try using a different search term."
+msgstr "Disculpe pero su búsqueda no ha producido ningún resultado. Por favor pruebe con otro termino de búsqueda.  "
+
+#: ../searchform.php:3
+msgid "Search ..."
+msgstr "Buscar ..."
+
+#: ../template-contact.php:20
+#: ../lib/widgets/widget-contact.php:51
+msgid "Thanks, your email was sent successfully."
+msgstr "Gracias, su email ha sido enviado."
+
+#: ../template-contact.php:28
+msgid "Please enter your name."
+msgstr "Por favor introduzca su nombre"
+
+#: ../template-contact.php:35
+msgid "You entered an invalid email address."
+msgstr "Ha introducido un email incorrecto."
+
+#: ../template-contact.php:42
+msgid "Please enter a message."
+msgstr "Por favor introduzca un mensaje."
+
+#: ../admin/options-framework.php:254
+msgid "Save Options"
+msgstr ""
+
+#: ../admin/options-framework.php:255
+msgid "Restore Defaults"
+msgstr ""
+
+#: ../admin/options-framework.php:255
+msgid "Click OK to reset. Any theme settings will be lost!"
+msgstr ""
+
+#: ../admin/options-framework.php:285
+msgid "Default options restored."
+msgstr ""
+
+#: ../admin/options-framework.php:339
+msgid "Options saved."
+msgstr ""
+
+#: ../admin/options-framework.php:387
+msgid "Theme Options"
+msgstr ""
+
+#: ../admin/options-interface.php:655
+msgid "Add slider name"
+msgstr "Añadir un nombre al Slider"
+
+#: ../admin/options-interface.php:675
+msgid "Select the slider type you want"
+msgstr "Seleccione el tipo de slider a crear"
+
+#: ../admin/options-medialibrary-uploader.php:141
+msgid "Set pattern"
+msgstr ""
+
+#: ../admin/options-medialibrary-uploader.php:147
+msgid "Upload"
+msgstr ""
+
+#: ../admin/options-medialibrary-uploader.php:171
+msgid "View File"
+msgstr ""
+
+#: ../admin/options-medialibrary-uploader.php:316
+msgid "Gallery"
+msgstr ""
+
+#: ../admin/options-medialibrary-uploader.php:316
+msgid "Previously Uploaded"
+msgstr ""
+
+#: ../includes/heading-tagline.php:52
+msgid "All"
+msgstr "Todos"
+
+#: ../includes/heading-tagline.php:68
+msgid "You are viewing the author archive for:"
+msgstr "Usted está viendo el archivo del autor:"
+
+#: ../search.php:55
+#: ../includes/heading-tagline.php:76
+msgid "Search result for:"
+msgstr "Resultado de la búsqueda para:"
+
+#: ../lib/functions/embed-video.php:31
+msgid "Invalid YouTube URL, please check it again."
+msgstr "Dirección de YouTube inválida, por favor introduzcala nuevamente."
+
+#: ../lib/functions/embed-video.php:39
+msgid "Invalid Vimeo URL, please check it again."
+msgstr "Dirección de Vimeo inválida, por favor introduzcala nuevamente."
+
+#: ../lib/functions/embed-video.php:43
+msgid "Invalid YouTube or Vimeo URL, please check it again."
+msgstr "Dirección de YouTube o Vimeo inválida, por favor introduzca la nuevamente."
+
+#: ../lib/functions/init-functions.php:10
+msgid "Default Sidebar"
+msgstr ""
+
+#: ../lib/functions/init-functions.php:17
+msgid "Footer Widget Area: First"
+msgstr ""
+
+#: ../lib/functions/init-functions.php:24
+msgid "Footer Widget Area: Second"
+msgstr ""
+
+#: ../lib/functions/init-functions.php:31
+msgid "Footer Widget Area: Third"
+msgstr ""
+
+#: ../lib/functions/init-functions.php:38
+msgid "Footer Widget Area: Fourth"
+msgstr ""
+
+#: ../lib/functions/init-functions.php:64
+msgid "Primary Menu"
+msgstr ""
+
+#: ../lib/functions/init-functions.php:65
+msgid "Secondary Menu"
+msgstr ""
+
+#: ../lib/functions/init-functions.php:114
+#, php-format
+msgid "View all posts filed under %s"
+msgstr ""
+
+#: ../lib/functions/init-functions.php:433
+msgid "Your comment is awaiting moderation."
+msgstr "Su comentario está a la espera de ser moderado"
+
+#: ../lib/functions/init-functions.php:437
+msgid "says"
+msgstr "dice"
+
+#: ../lib/functions/init-functions.php:438
+msgid "at"
+msgstr "a"
+
+#: ../lib/functions/init-functions.php:438
+msgid "(Edit)"
+msgstr "(Editar)"
+
+#: ../lib/functions/portfolio-fields.php:36
+msgid "Select Page"
+msgstr "Seleccionar página"
+
+#: ../lib/functions/portfolio-fields.php:37
+msgid "Select portfolio page to display this portfolio item. Before this you should created portfolio page and asign a potfolio template available."
+msgstr "Selección el portfolio en el que desea mostrar el proyecto que está creando. Antes de hacer esto usted debe haber creado una página y haberle asignado una de las cuatro plantillas de tipo portfolio disponibles para tal efecto."
+
+#: ../lib/functions/portfolio-fields.php:46
+msgid "Image 1"
+msgstr "Imagen 1"
+
+#: ../lib/functions/portfolio-fields.php:47
+#: ../lib/functions/portfolio-fields.php:54
+#: ../lib/functions/portfolio-fields.php:61
+#: ../lib/functions/portfolio-fields.php:68
+#: ../lib/functions/portfolio-fields.php:75
+#: ../lib/functions/portfolio-fields.php:82
+msgid "Upload slide image for portfolio slider. Note: enable portfolio slider via options panel."
+msgstr "Suba una imagen para mostrar en el slider del proyecto que está creando."
+
+#: ../lib/functions/portfolio-fields.php:53
+msgid "Image 2"
+msgstr "Imagen 2"
+
+#: ../lib/functions/portfolio-fields.php:60
+msgid "Image 3"
+msgstr "Imagen 3"
+
+#: ../lib/functions/portfolio-fields.php:67
+msgid "Image 4"
+msgstr "Imagen 4"
+
+#: ../lib/functions/portfolio-fields.php:74
+msgid "Image 5"
+msgstr "Imagen 5"
+
+#: ../lib/functions/portfolio-fields.php:81
+msgid "Image 6"
+msgstr "Imagen 6"
+
+#: ../lib/functions/portfolio-fields.php:90
+msgid "Video"
+msgstr "Vídeo"
+
+#: ../lib/functions/portfolio-fields.php:91
+msgid "Insert Vimeo or YouTube URLs to show the corresponding video."
+msgstr "Inserte la dirección URL de un vídeo de Vimeo o YouTube"
+
+#: ../lib/functions/portfolio-fields.php:96
+msgid "Embedded Code"
+msgstr "Código embebido"
+
+#: ../lib/functions/portfolio-fields.php:97
+msgid "Use this field to embed code of other video plataforms like blip."
+msgstr "Use este campo para insertar vídeo de otras plataformas."
+
+#: ../lib/functions/portfolio-fields.php:105
+msgid "Portfolio Page"
+msgstr "Página del portfolio"
+
+#: ../lib/functions/portfolio-fields.php:106
+msgid "Slider Portfolio Images"
+msgstr "Imágenes para el slider del portfolio"
+
+#: ../lib/functions/portfolio-fields.php:107
+msgid "Video Settings"
+msgstr "Opciones de Vídeo"
+
+#: ../lib/functions/portfolio-posttype.php:19
+msgid "portfolios"
+msgstr ""
+
+#: ../lib/functions/portfolio-posttype.php:21
+msgid "Add New Portfolio"
+msgstr "Añadir nuevo portfolio"
+
+#: ../lib/functions/portfolio-posttype.php:22
+msgid "Edit Portfolio"
+msgstr "Editar Portfolio"
+
+#: ../lib/functions/portfolio-posttype.php:23
+msgid "New Portfolio"
+msgstr "Nuevo Portfolio"
+
+#: ../lib/functions/portfolio-posttype.php:24
+msgid "View Portfolio"
+msgstr "Ver Portfolio"
+
+#: ../lib/functions/portfolio-posttype.php:25
+msgid "Search Portfolio"
+msgstr "Buscar Portfolio"
+
+#: ../lib/functions/portfolio-posttype.php:26
+msgid "No portfolios found"
+msgstr "No se han encontrado portfolios"
+
+#: ../lib/functions/portfolio-posttype.php:27
+msgid "No portfolios found in Trash"
+msgstr "No se han encontrado portfolios en la papelera"
+
+#: ../lib/functions/portfolio-posttype.php:44
+#: ../lib/functions/portfolio-posttype.php:52
+msgid "portfolio"
+msgstr ""
+
+#: ../lib/functions/portfolio-posttype.php:55
+#, php-format
+msgid "Portfolio updated. <a href=\"%s\">View portfolio</a>"
+msgstr ""
+
+#: ../lib/functions/portfolio-posttype.php:56
+msgid "Custom field updated."
+msgstr ""
+
+#: ../lib/functions/portfolio-posttype.php:57
+msgid "Custom field deleted."
+msgstr ""
+
+#: ../lib/functions/portfolio-posttype.php:58
+msgid "Portfolio updated."
+msgstr ""
+
+#: ../lib/functions/portfolio-posttype.php:60
+#, php-format
+msgid "Portfolio restored to revision from %s"
+msgstr ""
+
+#: ../lib/functions/portfolio-posttype.php:61
+#, php-format
+msgid "Portfolio published. <a href=\"%s\">View portfolio</a>"
+msgstr ""
+
+#: ../lib/functions/portfolio-posttype.php:62
+msgid "Portfolio saved."
+msgstr "Portfolio guardado"
+
+#: ../lib/functions/portfolio-posttype.php:63
+#, php-format
+msgid "Portfolio submitted. <a target=\"_blank\" href=\"%s\">Preview portfolio</a>"
+msgstr ""
+
+#: ../lib/functions/portfolio-posttype.php:64
+#, php-format
+msgid "Portfolio scheduled. <a target=\"_blank\" href=\"%s\">Preview portfolio</a>"
+msgstr ""
+
+#: ../lib/functions/portfolio-posttype.php:65
+#, php-format
+msgid "Portfolio draft updated. <a target=\"_blank\" href=\"%s\">Preview portfolio</a>"
+msgstr ""
+
+#: ../lib/functions/portfolio-posttype.php:76
+msgid "Portfolio Categories"
+msgstr "Categorías del portfolio"
+
+#: ../lib/functions/portfolio-posttype.php:76
+msgid "Portfolio Category"
+msgstr "Categoría del portfolio"
+
+#: ../lib/functions/post-fields.php:18
+#: ../lib/functions/post-fields.php:47
+msgid "Individually define the structure of each page and post for your website. You can choose between different structures: full width, right-sided navigation and left-sided navigation."
+msgstr "Defina de forma individual la estructura de la página o post que está creando. Puede elegir entre diferentes estructuras: ancho completo, navegación derecha o navegación izquierda."
+
+#: ../lib/functions/post-fields.php:24
+#: ../lib/functions/post-fields.php:53
+msgid "Sidebar"
+msgstr ""
+
+#: ../lib/functions/post-fields.php:31
+msgid "Heading"
+msgstr "Encabezado"
+
+#: ../lib/functions/post-fields.php:32
+msgid "Define an alternative title to the site name which will be displayed at the top of it."
+msgstr "Defina un título alternativo al nombre de la página para que se muestre en el encabezado de la página."
+
+#: ../lib/functions/post-fields.php:68
+msgid "Featured"
+msgstr "Destacado"
+
+#: ../lib/functions/post-fields.php:69
+msgid "This option is only available for posts and lets you add it to the featured posts slider. To enable the use of a slider choose Theme Options - Blog - Enable Blog Slider."
+msgstr "Esta opción sólo está disponible para posts y le da la opción de marcar el post que está creando como destacado para que se muestre en el slider del blog. Para habilitar el slider active la opción disponible en las opciones del tema.  "
+
+#: ../lib/functions/post-fields.php:71
+msgid "No"
+msgstr ""
+
+#: ../lib/functions/post-fields.php:71
+msgid "Yes"
+msgstr ""
+
+#: ../lib/functions/post-fields.php:77
+#: ../lib/functions/post-fields.php:78
+msgid "Options"
+msgstr ""
+
+#: ../lib/functions/post-fields.php:79
+msgid "Featured Post"
+msgstr "Post Destacado"
+
+#: ../lib/functions/tinymce/window.php:5
+msgid "You are not allowed to be here"
+msgstr "Usted no está autorizado para estar aquí"
+
+#: ../lib/widgets/plugin-twitter.php:62
+#, php-format
+msgid "%s ago"
+msgstr ""
+
+#: ../lib/widgets/plugin-twitter.php:64
+msgid "Y/m/d"
+msgstr ""
+
+#: ../lib/widgets/plugin-twitter.php:66
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: ../lib/widgets/widget-ad-300-250.php:12
+msgid "A widget that allows the display and configuration of a single 300x250 Banner."
+msgstr "Un widget que le permite configurar y mostrar un banner de 300x250 px."
+
+#: ../lib/widgets/widget-ad-300-250.php:76
+msgid "Option 1: Paste the Code"
+msgstr "Opción 1: Pegar el código"
+
+#: ../lib/widgets/widget-ad-300-250.php:79
+msgid "Option 2:  Fill in the Fields"
+msgstr "Opción 2: Rellenar los campos"
+
+#: ../lib/widgets/widget-ad-300-250.php:81
+msgid "Image"
+msgstr "Imagen"
+
+#: ../lib/widgets/widget-ad-300-250.php:89
+msgid "Alt"
+msgstr "Texto alternativo"
+
+#: ../lib/widgets/widget-ads-125.php:12
+msgid "A widget that allows the display and configuration of 4 125x125 banners."
+msgstr "Un widget que le permite configurar y mostrar 4 banners de 125x125 px."
+
+#: ../lib/widgets/widget-ads-125.php:100
+msgid "Link 1"
+msgstr ""
+
+#: ../lib/widgets/widget-ads-125.php:108
+msgid "Link 2"
+msgstr ""
+
+#: ../lib/widgets/widget-ads-125.php:116
+msgid "Link 3"
+msgstr ""
+
+#: ../lib/widgets/widget-ads-125.php:124
+msgid "Link 4"
+msgstr ""
+
+#: ../lib/widgets/widget-contact.php:12
+msgid "A widget to provide users contact form."
+msgstr "Un widget para crear un formulario de contacto."
+
+#: ../lib/widgets/widget-contact.php:13
+msgid "Yourself: Contact Form"
+msgstr ""
+
+#: ../lib/widgets/widget-contact.php:81
+msgid "Title:"
+msgstr "Título:"
+
+#: ../lib/widgets/widget-contact.php:84
+msgid "The emails will been send to "
+msgstr "El email será enviado a:"
+
+#: ../lib/widgets/widget-contact.php:84
+msgid "You can change this email in:"
+msgstr "Usted puede cambiar la dirección de email en:"
+
+#: ../lib/widgets/widget-featured.php:12
+msgid "A widget that displays a featured post."
+msgstr "Un widget para configurar y mostrar un post destacado."
+
+#: ../lib/widgets/widget-featured.php:14
+msgid "Yourself: Featured Post"
+msgstr ""
+
+#: ../lib/widgets/widget-featured.php:74
+msgid "Post ID"
+msgstr ""
+
+#: ../lib/widgets/widget-flickr.php:12
+msgid "A widget that displays user/group Flickr photos."
+msgstr "Un widget para mostrar fotos de Flickr."
+
+#: ../lib/widgets/widget-flickr.php:73
+msgid "Flickr ID"
+msgstr ""
+
+#: ../lib/widgets/widget-flickr.php:75
+msgid "More info"
+msgstr "Más info"
+
+#: ../lib/widgets/widget-flickr.php:78
+msgid "Account Type"
+msgstr "Tipo de cuenta"
+
+#: ../lib/widgets/widget-flickr.php:81
+msgid "Group"
+msgstr "Group"
+
+#: ../lib/widgets/widget-flickr.php:85
+msgid "No. Photos"
+msgstr "Número de fotos"
+
+#: ../lib/widgets/widget-flickr.php:93
+msgid "Display"
+msgstr "Mostrar"
+
+#: ../lib/widgets/widget-flickr.php:95
+msgid "Latest"
+msgstr "Últimos"
+
+#: ../lib/widgets/widget-flickr.php:96
+msgid "Random"
+msgstr "Aleatorio"
+
+#: ../lib/widgets/widget-login.php:12
+msgid "A widget to provide users login form."
+msgstr "Un widget para mostrar un formulario de inicio de sesión."
+
+#: ../lib/widgets/widget-login.php:13
+msgid "Yourself: Login Form"
+msgstr ""
+
+#: ../lib/widgets/widget-login.php:34
+msgid "Logout &raquo;"
+msgstr ""
+
+#: ../lib/widgets/widget-posts-slider.php:12
+msgid "A widget that displays recent posts in slider format."
+msgstr "Un widget para mostrar los post más recientes en un slider."
+
+#: ../lib/widgets/widget-posts-slider.php:14
+msgid "Yourself: Recent Posts Slider"
+msgstr ""
+
+#: ../lib/widgets/widget-posts-slider.php:90
+msgid "Type"
+msgstr "Tipo"
+
+#: ../lib/widgets/widget-posts-slider.php:98
+#: ../lib/widgets/widget-recent.php:86
+msgid "No. Posts"
+msgstr "Número de posts"
+
+#: ../lib/widgets/widget-posts-slider.php:122
+msgid "Images Height"
+msgstr "Altura de la imagen"
+
+#: ../lib/widgets/widget-recent.php:12
+msgid "A widget that displays your latest posts with image."
+msgstr "Un widget para mostrar los últimos posts con imágenes."
+
+#: ../lib/widgets/widget-recent.php:14
+msgid "Yourself: Recent Posts"
+msgstr ""
+
+#: ../lib/widgets/widget-recent.php:94
+msgid "Display Image"
+msgstr "Mostrar imagen"
+
+#: ../lib/widgets/widget-screenshot.php:12
+msgid "A widget that displays large thumbnails with lightbox."
+msgstr "Un widget para mostrar imágenes con un efecto lightbox. "
+
+#: ../lib/widgets/widget-screenshot.php:96
+#: ../lib/widgets/widget-video.php:139
+msgid "Excerpt"
+msgstr "Resumen"
+
+#: ../lib/widgets/widget-tabs.php:12
+msgid "A widget that display popular posts, recent posts, comments and tags."
+msgstr "Un widget para mostrar en pestañas los posts más populares, los más recientes, comentarios y tags. "
+
+#: ../lib/widgets/widget-tabs.php:38
+#: ../lib/widgets/widget-tabs.php:192
+msgid "Popular"
+msgstr "Popular"
+
+#: ../lib/widgets/widget-tabs.php:41
+#: ../lib/widgets/widget-tabs.php:207
+msgid "Recent"
+msgstr "Reciente"
+
+#: ../lib/widgets/widget-tabs.php:47
+#: ../lib/widgets/widget-tabs.php:237
+msgid "Tags"
+msgstr "Tags"
+
+#: ../lib/widgets/widget-tabs.php:199
+msgid "No. Popular"
+msgstr ""
+
+#: ../lib/widgets/widget-tabs.php:214
+msgid "No. Recent"
+msgstr ""
+
+#: ../lib/widgets/widget-tabs.php:229
+msgid "No. Comments"
+msgstr ""
+
+#: ../lib/widgets/widget-tabs.php:244
+msgid "No. Tags"
+msgstr ""
+
+#: ../lib/widgets/widget-twitter.php:12
+msgid "A widget that displays your latest tweets."
+msgstr "Un widget para mostrar tus últimos tweets."
+
+#: ../lib/widgets/widget-twitter.php:75
+msgid "No. Tweets"
+msgstr ""
+
+#: ../lib/widgets/widget-twitter.php:83
+msgid "Show Follow"
+msgstr "Mostrar Follow"
+
+#: ../lib/widgets/widget-twitter.php:90
+msgid "Follow Text"
+msgstr "Texto Follow"
+
+#: ../lib/widgets/widget-video.php:12
+msgid "A widget that Display YouTube or Vimeo Videos."
+msgstr "Un widget para mostrar vídeos de YouTube o Vimeo."
+
+#: ../lib/widgets/widget-video.php:123
+msgid "Image *optional"
+msgstr "Imagen *opcional"
+
+#: ../lib/widgets/widget-video.php:127
+msgid "Vimeo or Youtube URL"
+msgstr "URL de YouTube o Vimeo"
+
+#: ../lib/widgets/widget-video.php:131
+msgid "Image/Video Height"
+msgstr "Altura de la Imagen o Vídeo"
+
+#: ../lib/widgets/widget-video.php:142
+msgid "Display video using lightbox effect."
+msgstr "Mostrar vídeo con efecto lightbox."
+

@@ -1,0 +1,1 @@
+<?php echo stripslashes(of_get_option('an_code')); ?>

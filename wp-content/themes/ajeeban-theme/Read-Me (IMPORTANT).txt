@@ -1,0 +1,31 @@
+HOW TO INSTALL AND SET UP THEME:::::::::::::::::::
+
+
+Step 1: Please unzip the downloaded package, upload the ajeeban-theme folder to the Themes folder of your wordpress 		installation.
+
+Step 2: Log in to Wordpress, click on the Themes tab under the Appearance menu and activate the theme.
+
+Step 3: Click on the Reading link under the Settings menu, put in 9 or 12 or 15 in the "Blog pages show at most" 			field.
+
+Step 4: Under the Appearance menu, click on the Theme Options tab, set up the theme as you like. The panel is easy to use and pretty self explanatory. Contact me if you run into any problem.
+
+Step 5: If you're using image logo, please upload a 221px × 61px PNG logo image.
+
+
+HOW TO SETUP THE MENU::::::::::::::::::::::::::::
+
+This theme supports custom wordpress menu. To set it up, click on Menus under the Appearance tab. Enter a menu name (anything you like) and click on the Create Menu button. One the left side you'll find a widget titled Theme Location with a drop down menu that says Primary Navigation. Choose the menu you just created from the list, select the pages you want to display in the menu on the actual website, or create custom menu items in the Custom Links widget and hit the Save Menu button.
+
+
+
+HOW TO ADD FEATURED POSTS::::::::::::::::::::::::
+
+
+Step 1: On the theme options page, select a category. This is the category from which the featured posts will be 			fetched.
+
+Step 2: Go on to the Add New Post page, type in the post title and the content. Upload a featured image buy clicking 		on the Set Featured Image link in the sidebar on the right. Please note that the image should be 540px x 297px in size, anything larger than that will be cropped to fit automatically. Once you've uploaded the image, click on the FULL SIZE radio button under the size section and then click Use As Featured Image.
+
+Step 3: Check the featured category checkbox and hit publish.
+
+
+

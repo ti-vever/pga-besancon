@@ -1,0 +1,2227 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Yourself v1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2012-09-11 13:16:47+0000\n"
+"Last-Translator: master <ricardo@khan.com.br>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: Portuguese\n"
+"X-Poedit-Country: BRAZIL\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: admin/options-framework.php:229
+#: admin/options-framework.php:387
+#@ default
+#@ theme_textdomain
+msgid "Theme Options"
+msgstr "Opções do Tema"
+
+#: admin/options-framework.php:254
+#@ theme_textdomain
+msgid "Save Options"
+msgstr "Salvar Opções"
+
+#: admin/options-framework.php:255
+#@ theme_textdomain
+msgid "Restore Defaults"
+msgstr "Restaurar Padrões"
+
+#: admin/options-framework.php:255
+#@ theme_textdomain
+msgid "Click OK to reset. Any theme settings will be lost!"
+msgstr "Clique em OK para reiniciar. Todas as configurações de tema serão perdidos!"
+
+#: admin/options-framework.php:285
+#@ theme_textdomain
+msgid "Default options restored."
+msgstr "Opções padrões restauradas."
+
+#: admin/options-framework.php:339
+#@ theme_textdomain
+msgid "Options saved."
+msgstr "Opções salvas."
+
+#: admin/options-interface.php:655
+#@ theme_textdomain
+msgid "Add slider name"
+msgstr "Adicionar nome do Slider"
+
+#: admin/options-interface.php:675
+#@ theme_textdomain
+msgid "Select the slider type you want"
+msgstr "Selecionar tipo do slider desejado"
+
+#: admin/options-medialibrary-uploader.php:141
+#@ theme_textdomain
+msgid "Set pattern"
+msgstr "Definir Padrão"
+
+#: admin/options-medialibrary-uploader.php:147
+#@ theme_textdomain
+msgid "Upload"
+msgstr "Upload"
+
+#: admin/options-medialibrary-uploader.php:171
+#@ optionsframework
+msgid "View File"
+msgstr ""
+
+#: admin/options-medialibrary-uploader.php:316
+#@ optionsframework
+msgid "Gallery"
+msgstr ""
+
+#: admin/options-medialibrary-uploader.php:316
+#@ optionsframework
+msgid "Previously Uploaded"
+msgstr ""
+
+#: comments.php:83
+#, php-format
+#@ theme_textdomain
+msgid "You must be %1$slogged in%2$s to post a comment."
+msgstr "Você deve ser %1$slogged in%2$s para postar um comentário."
+
+#: comments.php:92
+#, php-format
+#@ theme_textdomain
+msgid "Logged in as %1$s. %2$sLog out &raquo;%3$s"
+msgstr "Logado como %1$s. %2$sLog out &raquo;%3$s"
+
+#: comments.php:92
+#@ theme_textdomain
+msgid "Log out of this account"
+msgstr "Sair desta conta"
+
+#: comments.php:98
+#: comments.php:103
+#@ theme_textdomain
+msgid " *"
+msgstr "*"
+
+#: footer.php:99
+#@ theme_textdomain
+msgid "Proudly powered by"
+msgstr "Orgulhosamente desenvolvido por"
+
+#: lib/functions/embed-video.php:31
+#: lib/widgets/widget-video.php:57
+#@ theme_textdomain
+msgid "Invalid YouTube URL, please check it again."
+msgstr "URL YouTube inválido, por favor, verifique novamente."
+
+#: lib/functions/embed-video.php:39
+#: lib/widgets/widget-video.php:65
+#@ theme_textdomain
+msgid "Invalid Vimeo URL, please check it again."
+msgstr "URL Vimeo inválida, por favor verifique novamente."
+
+#: lib/functions/embed-video.php:43
+#: lib/widgets/widget-video.php:69
+#@ theme_textdomain
+msgid "Invalid YouTube or Vimeo URL, please check it again."
+msgstr "URL Youtube ou Vimeo inválida, por favor verifique novamente."
+
+#: lib/functions/init-functions.php:10
+#@ theme_textdomain
+msgid "Default Sidebar"
+msgstr "Sidebar Padrão"
+
+#: lib/functions/init-functions.php:17
+#@ theme_textdomain
+msgid "Footer Widget Area: First"
+msgstr "Área Widget Rodapé: Em primeiro"
+
+#: lib/functions/init-functions.php:24
+#@ theme_textdomain
+msgid "Footer Widget Area: Second"
+msgstr "Área Widget Rodapé: Em segundo"
+
+#: lib/functions/init-functions.php:31
+#@ theme_textdomain
+msgid "Footer Widget Area: Third"
+msgstr "Área Widget Rodapé: Em terceiro"
+
+#: lib/functions/init-functions.php:38
+#@ theme_textdomain
+msgid "Footer Widget Area: Fourth"
+msgstr "Área Widget Rodapé: Em quarto"
+
+#: lib/functions/init-functions.php:64
+#@ theme_textdomain
+msgid "Primary Menu"
+msgstr "Menu Inicial"
+
+#: lib/functions/init-functions.php:65
+#@ theme_textdomain
+msgid "Secondary Menu"
+msgstr "Menu secundário"
+
+#: lib/functions/init-functions.php:114
+#, php-format
+#@ theme_textdomain
+msgid "View all posts filed under %s"
+msgstr "Ver todos os posts arquivados em %s"
+
+#: lib/functions/init-functions.php:448
+#@ theme_textdomain
+msgid "(Edit)"
+msgstr "(Editar)"
+
+#: lib/functions/portfolio-fields.php:36
+#@ theme_textdomain
+msgid "Select Page"
+msgstr "Selecionar Página"
+
+#: lib/functions/portfolio-fields.php:37
+#@ theme_textdomain
+msgid "Select portfolio page to display this portfolio item. Before this you should created portfolio page and asign a potfolio template available."
+msgstr "Selecione página de portfólio para visualizar este item em portifólio. Antes disso você deve criar a página de portfólio e atribuir um modelo potfolio disponível."
+
+#: lib/functions/portfolio-fields.php:46
+#: lib/widgets/widget-ads-125.php:96
+#@ theme_textdomain
+msgid "Image 1"
+msgstr "Imagem 1"
+
+#: lib/functions/portfolio-fields.php:47
+#: lib/functions/portfolio-fields.php:54
+#: lib/functions/portfolio-fields.php:61
+#: lib/functions/portfolio-fields.php:68
+#: lib/functions/portfolio-fields.php:75
+#: lib/functions/portfolio-fields.php:82
+#@ theme_textdomain
+msgid "Upload slide image for portfolio slider. Note: enable portfolio slider via options panel."
+msgstr "Carregar imagem do slide para pasta slider. Nota: permitir slider através do painel de opções."
+
+#: lib/functions/portfolio-fields.php:53
+#: lib/widgets/widget-ads-125.php:104
+#@ theme_textdomain
+msgid "Image 2"
+msgstr "Imagem 2"
+
+#: lib/functions/portfolio-fields.php:60
+#: lib/widgets/widget-ads-125.php:112
+#@ theme_textdomain
+msgid "Image 3"
+msgstr "Imagem 3"
+
+#: lib/functions/portfolio-fields.php:67
+#: lib/widgets/widget-ads-125.php:120
+#@ theme_textdomain
+msgid "Image 4"
+msgstr "Imagem 4"
+
+#: lib/functions/portfolio-fields.php:74
+#@ theme_textdomain
+msgid "Image 5"
+msgstr "Imagem 5"
+
+#: lib/functions/portfolio-fields.php:81
+#@ theme_textdomain
+msgid "Image 6"
+msgstr "Imagem 6"
+
+#: lib/functions/portfolio-fields.php:90
+#: lib/functions/post-fields.php:37
+#: lib/functions/post-fields.php:60
+#@ theme_textdomain
+msgid "Video"
+msgstr "Video"
+
+#: lib/functions/portfolio-fields.php:91
+#: lib/functions/post-fields.php:38
+#: lib/functions/post-fields.php:61
+#@ theme_textdomain
+msgid "Insert Vimeo or YouTube URLs to show the corresponding video."
+msgstr "Inserir URLs Vimeo ou Youtube para mostrar o vídeo correspondente."
+
+#: lib/functions/portfolio-fields.php:96
+#@ theme_textdomain
+msgid "Embedded Code"
+msgstr "Código embutido"
+
+#: lib/functions/portfolio-fields.php:97
+#@ theme_textdomain
+msgid "Use this field to embed code of other video plataforms like blip."
+msgstr "Utilize este campo para inserir o código de outras plataformas de vídeo como blip."
+
+#: lib/functions/portfolio-fields.php:105
+#@ theme_textdomain
+msgid "Portfolio Page"
+msgstr "Página de Portfólio"
+
+#: lib/functions/portfolio-fields.php:106
+#@ theme_textdomain
+msgid "Slider Portfolio Images"
+msgstr "Imagens Slider Portfólio"
+
+#: lib/functions/portfolio-fields.php:107
+#@ theme_textdomain
+msgid "Video Settings"
+msgstr "Configurações de Vídeo"
+
+#: lib/functions/portfolio-posttype.php:17
+#: lib/functions/portfolio-posttype.php:18
+#: options.php:676
+#@ theme_textdomain
+msgid "Portfolio"
+msgstr "Portfólio"
+
+#: lib/functions/portfolio-posttype.php:19
+#@ theme_textdomain
+msgid "portfolios"
+msgstr "portfólios"
+
+#: lib/functions/portfolio-posttype.php:20
+#@ default
+msgctxt "portfolio"
+msgid "Add New"
+msgstr ""
+
+#: lib/functions/portfolio-posttype.php:21
+#@ theme_textdomain
+msgid "Add New Portfolio"
+msgstr "Adicionar novo Portfólio"
+
+#: lib/functions/portfolio-posttype.php:22
+#@ theme_textdomain
+msgid "Edit Portfolio"
+msgstr "Editar Portfólio"
+
+#: lib/functions/portfolio-posttype.php:23
+#@ theme_textdomain
+msgid "New Portfolio"
+msgstr "Novo Portfólio"
+
+#: lib/functions/portfolio-posttype.php:24
+#@ theme_textdomain
+msgid "View Portfolio"
+msgstr "Visualizar Portfólio"
+
+#: lib/functions/portfolio-posttype.php:25
+#@ theme_textdomain
+msgid "Search Portfolio"
+msgstr "Buscar Portfólio"
+
+#: lib/functions/portfolio-posttype.php:26
+#@ theme_textdomain
+msgid "No portfolios found"
+msgstr "Nenhum portfólio encontrado"
+
+#: lib/functions/portfolio-posttype.php:27
+#@ theme_textdomain
+msgid "No portfolios found in Trash"
+msgstr "Nenhum portfólio encontrado na lixeira"
+
+#: lib/functions/portfolio-posttype.php:44
+#: lib/functions/portfolio-posttype.php:52
+#@ theme_textdomain
+#@ default
+msgid "portfolio"
+msgstr "portfólio"
+
+#: lib/functions/portfolio-posttype.php:55
+#, php-format
+#@ theme_textdomain
+msgid "Portfolio updated. <a href=\"%s\">View portfolio</a>"
+msgstr "Portfólio atualizado. <a href=\"%s\">Visualizar portfolio</a>"
+
+#: lib/functions/portfolio-posttype.php:56
+#@ theme_textdomain
+msgid "Custom field updated."
+msgstr "Campo personalizado atualizado."
+
+#: lib/functions/portfolio-posttype.php:57
+#@ theme_textdomain
+msgid "Custom field deleted."
+msgstr "Campo personalizado apagado."
+
+#: lib/functions/portfolio-posttype.php:58
+#@ theme_textdomain
+msgid "Portfolio updated."
+msgstr "Portfólio atualizado."
+
+#. translators: %s: date and time of the revision
+#: lib/functions/portfolio-posttype.php:60
+#, php-format
+#@ theme_textdomain
+msgid "Portfolio restored to revision from %s"
+msgstr "Portfólio restaurado para revisão de %s"
+
+#: lib/functions/portfolio-posttype.php:61
+#, php-format
+#@ theme_textdomain
+msgid "Portfolio published. <a href=\"%s\">View portfolio</a>"
+msgstr "Portfólio publicado. <a href=\"%s\">Visualizar portfólio</a>"
+
+#: lib/functions/portfolio-posttype.php:62
+#@ theme_textdomain
+msgid "Portfolio saved."
+msgstr "Portfólio salvo."
+
+#: lib/functions/portfolio-posttype.php:63
+#, php-format
+#@ theme_textdomain
+msgid "Portfolio submitted. <a target=\"_blank\" href=\"%s\">Preview portfolio</a>"
+msgstr "Portfólio enviado. <a target=\"_blank\" href=\"%s\">Preview portfólio</a>"
+
+#: lib/functions/portfolio-posttype.php:64
+#, php-format
+#@ theme_textdomain
+msgid "Portfolio scheduled. <a target=\"_blank\" href=\"%s\">Preview portfolio</a>"
+msgstr ""
+
+#: lib/functions/portfolio-posttype.php:65
+#, php-format
+#@ theme_textdomain
+msgid "Portfolio draft updated. <a target=\"_blank\" href=\"%s\">Preview portfolio</a>"
+msgstr ""
+
+#: lib/functions/portfolio-posttype.php:76
+#@ theme_textdomain
+msgid "Portfolio Categories"
+msgstr "Categorias do Portfólio"
+
+#: lib/functions/portfolio-posttype.php:76
+#@ theme_textdomain
+msgid "Portfolio Category"
+msgstr "Categorias do Portfólio"
+
+#: lib/functions/post-fields.php:17
+#: lib/functions/post-fields.php:46
+#: options.php:116
+#: options.php:832
+#: options.php:1524
+#@ theme_textdomain
+msgid "Layout"
+msgstr ""
+
+#: lib/functions/post-fields.php:18
+#: lib/functions/post-fields.php:47
+#@ theme_textdomain
+msgid "Individually define the structure of each page and post for your website. You can choose between different structures: full width, right-sided navigation and left-sided navigation."
+msgstr "Individualmente definir a estrutura de cada página e postar para o seu site. Você pode escolher entre as diferentes estruturas: largura total, do lado direito de navegação e do lado esquerdo de navegação."
+
+#: lib/functions/post-fields.php:24
+#: lib/functions/post-fields.php:53
+#@ theme_textdomain
+msgid "Sidebar"
+msgstr "Barra Lateral"
+
+#: lib/functions/post-fields.php:25
+#: lib/functions/post-fields.php:54
+#: options.php:587
+#@ theme_textdomain
+msgid "You can choose as many sidebars as you like, assigning them as needed to each of the pages and posts on your website. Remember you may create as many sidebars as you want using Theme Options - Sidebars."
+msgstr "Você pode escolher como barras laterais que quiser, atribuindo a eles conforme necessário para cada uma das páginas e posts em seu site. Lembre-se você pode criar barras laterais como muitos como você deseja usando as Opções temáticas - barras laterais."
+
+#: lib/functions/post-fields.php:31
+#@ theme_textdomain
+msgid "Heading"
+msgstr ""
+
+#: lib/functions/post-fields.php:32
+#@ theme_textdomain
+msgid "Define an alternative title to the site name which will be displayed at the top of it."
+msgstr "Definir um título alternativo para o nome do site que será exibido no topo dela."
+
+#: lib/functions/post-fields.php:68
+#@ theme_textdomain
+msgid "Featured"
+msgstr "Destaque"
+
+#: lib/functions/post-fields.php:69
+#@ theme_textdomain
+msgid "This option is only available for posts and lets you add it to the featured posts slider. To enable the use of a slider choose Theme Options - Blog - Enable Blog Slider."
+msgstr "Esta opção só está disponível para mensagens e permite que você adicione-o para o controle deslizante Posts em Destaque. Para habilitar o uso de slider escolha Opções temáticas - Blog - Blog Habilitar Slider."
+
+#: lib/functions/post-fields.php:71
+#: lib/widgets/widget-recent.php:97
+#: lib/widgets/widget-tabs.php:195
+#: lib/widgets/widget-tabs.php:210
+#: lib/widgets/widget-tabs.php:225
+#: lib/widgets/widget-tabs.php:240
+#: lib/widgets/widget-twitter.php:86
+#@ theme_textdomain
+msgid "No"
+msgstr "Não"
+
+#: lib/functions/post-fields.php:71
+#: lib/widgets/widget-recent.php:96
+#: lib/widgets/widget-tabs.php:194
+#: lib/widgets/widget-tabs.php:209
+#: lib/widgets/widget-tabs.php:224
+#: lib/widgets/widget-tabs.php:239
+#: lib/widgets/widget-twitter.php:85
+#@ theme_textdomain
+msgid "Yes"
+msgstr "Sim"
+
+#: lib/functions/post-fields.php:77
+#: lib/functions/post-fields.php:78
+#@ theme_textdomain
+msgid "Options"
+msgstr "Opções"
+
+#: lib/functions/post-fields.php:79
+#@ theme_textdomain
+msgid "Featured Post"
+msgstr "Posts em destaque"
+
+#: lib/functions/tinymce/window.php:5
+#@ theme_textdomain
+msgid "You are not allowed to be here"
+msgstr "Você não tem permissão para estar aqui"
+
+#: lib/widgets/plugin-twitter.php:62
+#, php-format
+#@ theme_textdomain
+msgid "%s ago"
+msgstr "%s atrás"
+
+#: lib/widgets/plugin-twitter.php:64
+#@ theme_textdomain
+msgid "Y/m/d"
+msgstr "d/m/Y"
+
+#: lib/widgets/plugin-twitter.php:66
+#, php-format
+#@ theme_textdomain
+msgid "%s"
+msgstr ""
+
+#: lib/widgets/widget-ad-300-250.php:12
+#@ theme_textdomain
+msgid "A widget that allows the display and configuration of a single 300x250 Banner."
+msgstr "Um elemento que permite a exibição e configuração de um Banner 300x250 única."
+
+#: lib/widgets/widget-ad-300-250.php:72
+#: lib/widgets/widget-ads-125.php:92
+#: lib/widgets/widget-featured.php:70
+#: lib/widgets/widget-flickr.php:69
+#: lib/widgets/widget-login.php:92
+#: lib/widgets/widget-posts-slider.php:86
+#: lib/widgets/widget-recent.php:82
+#: lib/widgets/widget-screenshot.php:76
+#: lib/widgets/widget-twitter.php:67
+#: lib/widgets/widget-video.php:115
+#: options.php:544
+#: options.php:787
+#: options.php:846
+#: options.php:934
+#@ theme_textdomain
+msgid "Title"
+msgstr "Título"
+
+#: lib/widgets/widget-ad-300-250.php:76
+#@ theme_textdomain
+msgid "Option 1: Paste the Code"
+msgstr "Opção 1: Cole o Código"
+
+#: lib/widgets/widget-ad-300-250.php:79
+#@ theme_textdomain
+msgid "Option 2:  Fill in the Fields"
+msgstr "Opção 2: Preencha os campos"
+
+#: lib/widgets/widget-ad-300-250.php:81
+#: lib/widgets/widget-screenshot.php:84
+#@ theme_textdomain
+msgid "Image"
+msgstr "Imagem"
+
+#: lib/widgets/widget-ad-300-250.php:85
+#: options.php:202
+#: options.php:346
+#: options.php:416
+#: options.php:793
+#: options.php:858
+#: options.php:946
+#@ theme_textdomain
+msgid "Link"
+msgstr ""
+
+#: lib/widgets/widget-ad-300-250.php:89
+#@ theme_textdomain
+msgid "Alt"
+msgstr ""
+
+#: lib/widgets/widget-ads-125.php:12
+#@ theme_textdomain
+msgid "A widget that allows the display and configuration of 4 125x125 banners."
+msgstr "Um elemento que permite a exibição e configuração de 4 banners 125x125."
+
+#: lib/widgets/widget-ads-125.php:100
+#@ theme_textdomain
+msgid "Link 1"
+msgstr ""
+
+#: lib/widgets/widget-ads-125.php:108
+#@ theme_textdomain
+msgid "Link 2"
+msgstr ""
+
+#: lib/widgets/widget-ads-125.php:116
+#@ theme_textdomain
+msgid "Link 3"
+msgstr ""
+
+#: lib/widgets/widget-ads-125.php:124
+#@ theme_textdomain
+msgid "Link 4"
+msgstr ""
+
+#: lib/widgets/widget-contact.php:12
+#@ theme_textdomain
+msgid "A widget to provide users contact form."
+msgstr "Um widget para fornecer aos usuários o formulário de contato."
+
+#: lib/widgets/widget-contact.php:13
+#@ theme_textdomain
+msgid "Yourself: Contact Form"
+msgstr "Yourself: Formulário de Contato"
+
+#: lib/widgets/widget-contact.php:81
+#@ theme_textdomain
+msgid "Title:"
+msgstr "Título"
+
+#: lib/widgets/widget-contact.php:84
+#@ theme_textdomain
+msgid "The emails will been send to "
+msgstr "Os emails serão enviados para"
+
+#: lib/widgets/widget-contact.php:84
+#@ theme_textdomain
+msgid "You can change this email in:"
+msgstr "Você pode alterar esse e-mail:"
+
+#: lib/widgets/widget-featured.php:12
+#@ theme_textdomain
+msgid "A widget that displays a featured post."
+msgstr "Um widget que exibe uma mensagem em destaque."
+
+#: lib/widgets/widget-featured.php:14
+#@ theme_textdomain
+msgid "Yourself: Featured Post"
+msgstr "Yourself: Mensagem em destaque"
+
+#: lib/widgets/widget-featured.php:38
+#: options.php:1019
+#@ theme_textdomain
+msgid "By"
+msgstr "pelo"
+
+#: lib/widgets/widget-featured.php:74
+#@ theme_textdomain
+msgid "Post ID"
+msgstr ""
+
+#: lib/widgets/widget-flickr.php:12
+#@ theme_textdomain
+msgid "A widget that displays user/group Flickr photos."
+msgstr "Um widget que exibe usuário / grupo Flickr fotos."
+
+#: lib/widgets/widget-flickr.php:73
+#@ theme_textdomain
+msgid "Flickr ID"
+msgstr ""
+
+#: lib/widgets/widget-flickr.php:75
+#@ theme_textdomain
+msgid "More info"
+msgstr "Mais informações"
+
+#: lib/widgets/widget-flickr.php:78
+#@ theme_textdomain
+msgid "Account Type"
+msgstr "Tipo de Conta"
+
+#: lib/widgets/widget-flickr.php:80
+#: lib/widgets/widget-twitter.php:71
+#: options.php:1279
+#@ theme_textdomain
+msgid "User"
+msgstr "Usuário"
+
+#: lib/widgets/widget-flickr.php:81
+#@ theme_textdomain
+msgid "Group"
+msgstr "Grupo"
+
+#: lib/widgets/widget-flickr.php:85
+#@ theme_textdomain
+msgid "No. Photos"
+msgstr "Nº de Fotos"
+
+#: lib/widgets/widget-flickr.php:93
+#@ theme_textdomain
+msgid "Display"
+msgstr "Display"
+
+#: lib/widgets/widget-flickr.php:95
+#@ theme_textdomain
+msgid "Latest"
+msgstr "Recente"
+
+#: lib/widgets/widget-flickr.php:96
+#@ theme_textdomain
+msgid "Random"
+msgstr "Aleatório"
+
+#: lib/widgets/widget-login.php:12
+#@ theme_textdomain
+msgid "A widget to provide users login form."
+msgstr "Um widget para fornecer aos usuários formulário de login."
+
+#: lib/widgets/widget-login.php:13
+#@ theme_textdomain
+msgid "Yourself: Login Form"
+msgstr "Yourself: Formulário de Login"
+
+#: lib/widgets/widget-login.php:34
+#@ theme_textdomain
+msgid "Logout &raquo;"
+msgstr ""
+
+#: lib/widgets/widget-posts-slider.php:12
+#@ theme_textdomain
+msgid "A widget that displays recent posts in slider format."
+msgstr "Um widget que exibe mensagens recentes no formato slider."
+
+#: lib/widgets/widget-posts-slider.php:14
+#@ theme_textdomain
+msgid "Yourself: Recent Posts Slider"
+msgstr "ourself: Slider Mensagens recentes"
+
+#: lib/widgets/widget-posts-slider.php:90
+#@ theme_textdomain
+msgid "Type"
+msgstr "Tipo"
+
+#: lib/widgets/widget-posts-slider.php:98
+#: lib/widgets/widget-recent.php:86
+#@ theme_textdomain
+msgid "No. Posts"
+msgstr ""
+
+#: lib/widgets/widget-posts-slider.php:106
+#: options.php:631
+#: options.php:702
+#: options.php:770
+#: options.php:821
+#: options.php:903
+#@ theme_textdomain
+msgid "Pause Time"
+msgstr "Tempo de pausa"
+
+#: lib/widgets/widget-posts-slider.php:114
+#: options.php:625
+#: options.php:696
+#: options.php:763
+#: options.php:814
+#@ theme_textdomain
+msgid "Transition Effect"
+msgstr "Efeito de transição"
+
+#: lib/widgets/widget-posts-slider.php:122
+#@ theme_textdomain
+msgid "Images Height"
+msgstr "Altura das imagens"
+
+#: lib/widgets/widget-recent.php:12
+#@ theme_textdomain
+msgid "A widget that displays your latest posts with image."
+msgstr "Um widget que exibe suas últimas mensagens com imagem."
+
+#: lib/widgets/widget-recent.php:14
+#@ theme_textdomain
+msgid "Yourself: Recent Posts"
+msgstr "Yourself: Mensagens recentes"
+
+#: lib/widgets/widget-recent.php:49
+#: lib/widgets/widget-tabs.php:74
+#: lib/widgets/widget-tabs.php:107
+#: options.php:1031
+#@ theme_textdomain
+msgid "No Comments"
+msgstr "Nenhum comentário"
+
+#: lib/widgets/widget-recent.php:49
+#: lib/widgets/widget-tabs.php:74
+#: lib/widgets/widget-tabs.php:107
+#: options.php:1037
+#@ theme_textdomain
+msgid "1 Comment"
+msgstr "1 Comentário"
+
+#: lib/widgets/widget-recent.php:49
+#: lib/widgets/widget-tabs.php:74
+#: lib/widgets/widget-tabs.php:107
+#@ theme_textdomain
+msgid "% Comments"
+msgstr "% Comentários"
+
+#: lib/widgets/widget-recent.php:94
+#@ theme_textdomain
+msgid "Display Image"
+msgstr "Mostrar Imagem"
+
+#: lib/widgets/widget-screenshot.php:12
+#@ theme_textdomain
+msgid "A widget that displays large thumbnails with lightbox."
+msgstr "Um widget que exibe miniaturas de grande porte com lightbox."
+
+#: lib/widgets/widget-screenshot.php:80
+#: lib/widgets/widget-video.php:119
+#: options.php:549
+#: options.php:852
+#: options.php:940
+#@ theme_textdomain
+msgid "Description"
+msgstr "Descrição"
+
+#: lib/widgets/widget-screenshot.php:88
+#: options.php:617
+#@ theme_textdomain
+msgid "Image Height"
+msgstr "Altura da imagem"
+
+#: lib/widgets/widget-screenshot.php:96
+#: lib/widgets/widget-video.php:139
+#@ theme_textdomain
+msgid "Excerpt"
+msgstr "Trecho"
+
+#: lib/widgets/widget-tabs.php:12
+#@ theme_textdomain
+msgid "A widget that display popular posts, recent posts, comments and tags."
+msgstr "Um widget que exibe mensagens populares, posts recentes, comentários e tags."
+
+#: lib/widgets/widget-tabs.php:38
+#: lib/widgets/widget-tabs.php:192
+#@ theme_textdomain
+msgid "Popular"
+msgstr ""
+
+#: lib/widgets/widget-tabs.php:41
+#: lib/widgets/widget-tabs.php:207
+#@ theme_textdomain
+msgid "Recent"
+msgstr "Recente"
+
+#: lib/widgets/widget-tabs.php:44
+#: lib/widgets/widget-tabs.php:222
+#: options.php:1043
+#: options.php:1069
+#@ theme_textdomain
+msgid "Comments"
+msgstr "Comentários"
+
+#: lib/widgets/widget-tabs.php:47
+#: lib/widgets/widget-tabs.php:237
+#@ theme_textdomain
+msgid "Tags"
+msgstr ""
+
+#: lib/widgets/widget-tabs.php:199
+#@ theme_textdomain
+msgid "No. Popular"
+msgstr ""
+
+#: lib/widgets/widget-tabs.php:214
+#@ theme_textdomain
+msgid "No. Recent"
+msgstr "Nº Recente"
+
+#: lib/widgets/widget-tabs.php:229
+#@ theme_textdomain
+msgid "No. Comments"
+msgstr "Nº Comentários"
+
+#: lib/widgets/widget-tabs.php:244
+#@ theme_textdomain
+msgid "No. Tags"
+msgstr ""
+
+#: lib/widgets/widget-twitter.php:12
+#@ theme_textdomain
+msgid "A widget that displays your latest tweets."
+msgstr "Um widget que exibe seus últimos tweets."
+
+#: lib/widgets/widget-twitter.php:75
+#@ theme_textdomain
+msgid "No. Tweets"
+msgstr ""
+
+#: lib/widgets/widget-twitter.php:83
+#@ theme_textdomain
+msgid "Show Follow"
+msgstr "Mostrar abaixo"
+
+#: lib/widgets/widget-twitter.php:90
+#@ theme_textdomain
+msgid "Follow Text"
+msgstr "Mostrar Texto"
+
+#: lib/widgets/widget-video.php:12
+#@ theme_textdomain
+msgid "A widget that Display YouTube or Vimeo Videos."
+msgstr "Um elemento que exibição do YouTube ou Vimeo Videos."
+
+#: lib/widgets/widget-video.php:123
+#@ theme_textdomain
+msgid "Image *optional"
+msgstr "Imagem *opcional"
+
+#: lib/widgets/widget-video.php:127
+#@ theme_textdomain
+msgid "Vimeo or Youtube URL"
+msgstr "URL Vimeo ou YouTube"
+
+#: lib/widgets/widget-video.php:131
+#@ theme_textdomain
+msgid "Image/Video Height"
+msgstr "Altura Imagem/Vídeo"
+
+#: lib/widgets/widget-video.php:142
+#@ theme_textdomain
+msgid "Display video using lightbox effect."
+msgstr "Exibir o vídeo usando o efeito lightbox."
+
+#: options.php:82
+#@ theme_textdomain
+msgid "General Settings"
+msgstr "Configurações Gerais"
+
+#: options.php:85
+#@ theme_textdomain
+msgid "Logo Settings"
+msgstr "Configurações de Logo"
+
+#: options.php:86
+#@ theme_textdomain
+msgid "You can choose between uploading your custom logo or displaying your site title."
+msgstr "Você pode escolher entre o upload do seu logotipo personalizado ou exibir o seu título do site."
+
+#: options.php:91
+#@ theme_textdomain
+msgid "Custom Logo"
+msgstr "Logo Personalizado"
+
+#: options.php:92
+#@ theme_textdomain
+msgid "Site Title"
+msgstr "Título do Site"
+
+#: options.php:94
+#@ theme_textdomain
+msgid "Logo"
+msgstr ""
+
+#: options.php:95
+#@ theme_textdomain
+msgid "Upload a logo for your site, or specify the image address of your online logo. (http://www.example.com/logo.png)"
+msgstr "Fazer upload de um logotipo para o seu site, ou especificar o endereço da imagem de seu logotipo online. (http://www.example.com/logo.png)"
+
+#: options.php:100
+#@ theme_textdomain
+msgid "Favicon"
+msgstr ""
+
+#: options.php:101
+#@ theme_textdomain
+msgid "Upload a 16px x 16px Png/Gif image to be displayed as your website favicon."
+msgstr "Carregar uma 16px 16px x imagem PNG / GIF para ser exibido como seu favicon site."
+
+#: options.php:105
+#: options.php:1558
+#@ theme_textdomain
+msgid "Icons Style"
+msgstr "Estilo dos ícones"
+
+#: options.php:106
+#: options.php:1559
+#@ theme_textdomain
+msgid "Choose the color style of social profile icons."
+msgstr "Escolha o estilo de cor de ícones em seu perfil social."
+
+#: options.php:117
+#@ theme_textdomain
+msgid "Select the default layout for your site. You can customize the layout for every post and page via custom fields."
+msgstr "Selecione o layout padrão para o seu site. Você pode personalizar o layout de cada post e página através de campos personalizados."
+
+#: options.php:123
+#@ theme_textdomain
+msgid "Contact Form Email"
+msgstr "Formulário de Contato"
+
+#: options.php:124
+#@ theme_textdomain
+msgid "Enter the email address where you'd like to receive emails from the contact form, or leave blank to use admin email."
+msgstr "Digite o endereço de e-mail onde você gostaria de receber e-mails a partir do formulário de contato, ou deixe em branco para usar e-mail admin."
+
+#: options.php:129
+#@ theme_textdomain
+msgid "Header Code"
+msgstr "Código do Cabeçalho"
+
+#: options.php:130
+#: options.php:135
+#@ theme_textdomain
+msgid "The code pasted here will be included before the tag of each page. You can paste in your tracking codes, script and/or style includes."
+msgstr "O código colado aqui serão incluídas antes da tag de cada página. Você pode colar em seus códigos de controle, script e / ou estilo inclui."
+
+#: options.php:134
+#@ theme_textdomain
+msgid "Footor Code"
+msgstr "Código do Rodapé"
+
+#: options.php:141
+#@ theme_textdomain
+msgid "Skins"
+msgstr ""
+
+#: options.php:144
+#@ theme_textdomain
+msgid "Skin Manager"
+msgstr "Gerenciar Skin"
+
+#: options.php:145
+#@ theme_textdomain
+msgid "Customization features are only available with Premium Version. If you want to change any design aspect of your site: color, typography, menus, backgrounds, and so on, you can do it. <a href=\"http://themeyourself.com/upgrade/\">Click to read more about Premium Version and how to upgrade it</a>."
+msgstr "Os recursos de personalização estão disponíveis apenas com a versão Premium. Se você quiser alterar qualquer aspecto do projeto de seu site: cor, tipografia, menus, fundos, e assim por diante, você pode fazê-lo. href=\"http://themeyourself.com/upgrade/\"> <a Clique para ler mais sobre a versão Premium e como atualizá-lo </ a>."
+
+#: options.php:150
+#@ theme_textdomain
+msgid "Default"
+msgstr "Padrão"
+
+#: options.php:151
+#@ theme_textdomain
+msgid "Customize"
+msgstr "Personalizar"
+
+#: options.php:153
+#@ theme_textdomain
+msgid "Customize your own Skin"
+msgstr "Personalizar seu próprio Skin"
+
+#: options.php:157
+#: options.php:262
+#: options.php:334
+#: options.php:404
+#@ theme_textdomain
+msgid "Typography"
+msgstr "Tipografia"
+
+#: options.php:160
+#@ theme_textdomain
+msgid "Body Font"
+msgstr "Fonte do Body"
+
+#: options.php:166
+#@ theme_textdomain
+msgid "H1 Font"
+msgstr ""
+
+#: options.php:172
+#@ theme_textdomain
+msgid "H2 Font"
+msgstr ""
+
+#: options.php:178
+#@ theme_textdomain
+msgid "H3 Font"
+msgstr ""
+
+#: options.php:184
+#@ theme_textdomain
+msgid "H4 Font"
+msgstr ""
+
+#: options.php:190
+#@ theme_textdomain
+msgid "H5 Font"
+msgstr ""
+
+#: options.php:196
+#@ theme_textdomain
+msgid "H6 Font"
+msgstr ""
+
+#: options.php:208
+#: options.php:274
+#: options.php:352
+#: options.php:422
+#@ theme_textdomain
+msgid "Link Hover"
+msgstr ""
+
+#: options.php:216
+#@ theme_textdomain
+msgid "Body"
+msgstr ""
+
+#: options.php:219
+#@ theme_textdomain
+msgid "Body Background"
+msgstr ""
+
+#: options.php:227
+#@ theme_textdomain
+msgid "Header"
+msgstr ""
+
+#: options.php:230
+#@ theme_textdomain
+msgid "General"
+msgstr "Geral"
+
+#: options.php:233
+#@ theme_textdomain
+msgid "Header Background"
+msgstr ""
+
+#: options.php:239
+#@ theme_textdomain
+msgid "Border Bottom"
+msgstr "Borda do botão"
+
+#: options.php:245
+#@ theme_textdomain
+msgid "Shadow Bottom"
+msgstr "Sombra do botão"
+
+#: options.php:253
+#@ theme_textdomain
+msgid "Menu"
+msgstr ""
+
+#: options.php:256
+#@ theme_textdomain
+msgid "Logo Typography"
+msgstr "Logo tipográfico"
+
+#: options.php:268
+#: options.php:340
+#: options.php:381
+#: options.php:410
+#@ theme_textdomain
+msgid "Typography Shadow"
+msgstr "Sombra da tipografia"
+
+#: options.php:282
+#@ theme_textdomain
+msgid "Dropdown Menu"
+msgstr "Menu Dropdown"
+
+#: options.php:285
+#: options.php:316
+#: options.php:363
+#: options.php:398
+#: options.php:448
+#@ theme_textdomain
+msgid "Background"
+msgstr ""
+
+#: options.php:291
+#: options.php:322
+#: options.php:369
+#@ theme_textdomain
+msgid "Border"
+msgstr "Borda"
+
+#: options.php:297
+#: options.php:328
+#: options.php:375
+#@ theme_textdomain
+msgid "Shadow"
+msgstr "Sombra"
+
+#: options.php:303
+#@ theme_textdomain
+msgid "Delimiters"
+msgstr "Delimitadores"
+
+#: options.php:313
+#@ theme_textdomain
+msgid "Subheader"
+msgstr "Sub Cabeçalho"
+
+#: options.php:360
+#@ theme_textdomain
+msgid "Main content"
+msgstr "Conteúdo Principal"
+
+#: options.php:387
+#@ theme_textdomain
+msgid "Delimiters color"
+msgstr "Cor dos delimitadores"
+
+#: options.php:395
+#: options.php:1514
+#@ theme_textdomain
+msgid "Footer"
+msgstr "Rodapé"
+
+#: options.php:428
+#@ theme_textdomain
+msgid "Headers Color"
+msgstr "Cores do Cabeçalho"
+
+#: options.php:434
+#@ theme_textdomain
+msgid "Delimiters Color"
+msgstr "Cor delimitadores"
+
+#: options.php:442
+#@ theme_textdomain
+msgid "Miscellaneous"
+msgstr "Diversos"
+
+#: options.php:445
+#@ theme_textdomain
+msgid "Social Footer"
+msgstr "Rodapé Social (redes sociais no rodapé)"
+
+#: options.php:454
+#@ theme_textdomain
+msgid "Typography Color"
+msgstr "Cor de tipografia"
+
+#: options.php:460
+#@ theme_textdomain
+msgid "Social Link Hover"
+msgstr ""
+
+#: options.php:468
+#@ theme_textdomain
+msgid "Content Forms"
+msgstr "Conteúdo dos formulários"
+
+#: options.php:471
+#: options.php:488
+#@ theme_textdomain
+msgid "Borders"
+msgstr "Bordas"
+
+#: options.php:477
+#: options.php:494
+#@ theme_textdomain
+msgid "Background Color"
+msgstr "Cor do Background"
+
+#: options.php:485
+#@ theme_textdomain
+msgid "Footer Forms"
+msgstr "Rodapé do formulário"
+
+#: options.php:509
+#@ theme_textdomain
+msgid "Homepage"
+msgstr ""
+
+#: options.php:512
+#@ theme_textdomain
+msgid "Homepage Layout"
+msgstr "Layout da Home"
+
+#: options.php:513
+#@ theme_textdomain
+msgid "Select the layout for your homepage site."
+msgstr "Selecione o layout de seu site."
+
+#: options.php:519
+#@ theme_textdomain
+msgid "Enable Homepage Slider"
+msgstr "Habilitar o Slider Homepage"
+
+#: options.php:520
+#@ theme_textdomain
+msgid "Check this to enable a homepage slider."
+msgstr "Marcar para habilitar o slider da homepage."
+
+#: options.php:526
+#@ theme_textdomain
+msgid "Choose slider"
+msgstr "Escolher Slider"
+
+#: options.php:527
+#@ theme_textdomain
+msgid "Select a slider created previously using the Slider Manager. If you don't have sliders listed  you must create a new one in order to choose it."
+msgstr "Selecione um slider criado anteriormente usando o Gerenciador de Slider. Se você não tem sliders listados você deve criar um novo, a fim de escolhê-lo."
+
+#: options.php:533
+#@ theme_textdomain
+msgid "Enable Call To Action"
+msgstr "Habilitar o Call To Action"
+
+#: options.php:534
+#@ theme_textdomain
+msgid "Check if you want to display call to action option."
+msgstr "Verifique se você quiser exibir chamada para opção de action."
+
+#: options.php:540
+#@ theme_textdomain
+msgid "Call To Action Settings"
+msgstr "Configurações Call To Action"
+
+#: options.php:545
+#@ theme_textdomain
+msgid "Define a title for a call to action."
+msgstr "Definir um título para uma chamada para action."
+
+#: options.php:550
+#@ theme_textdomain
+msgid "Define a description for a call to action."
+msgstr "Definir uma descrição para uma chamada para action."
+
+#: options.php:554
+#@ theme_textdomain
+msgid "Button Text"
+msgstr "Botão Texto"
+
+#: options.php:555
+#@ theme_textdomain
+msgid "Define the anchor text for the button."
+msgstr "Definir o texto âncora para o botão."
+
+#: options.php:559
+#@ theme_textdomain
+msgid "Button URL"
+msgstr "Botão URL"
+
+#: options.php:560
+#@ theme_textdomain
+msgid "Define the URL where the user is redirected when clicking the button."
+msgstr "Defina a URL onde o usuário é redirecionado ao clicar no botão."
+
+#: options.php:569
+#: options.php:1010
+#@ theme_textdomain
+msgid "Blog"
+msgstr ""
+
+#: options.php:572
+#@ theme_textdomain
+msgid "Blog Style"
+msgstr ""
+
+#: options.php:573
+#@ theme_textdomain
+msgid "Select the style for your blog page."
+msgstr "Selecione o estilo de sua página do blog."
+
+#: options.php:579
+#@ theme_textdomain
+msgid "Blog Layout"
+msgstr ""
+
+#: options.php:580
+#@ theme_textdomain
+msgid "Select the layout for your blog page."
+msgstr "Selecione o layout de sua página do blog."
+
+#: options.php:586
+#@ theme_textdomain
+msgid "Blog Sidebar"
+msgstr ""
+
+#: options.php:592
+#@ theme_textdomain
+msgid "Enable Submenu "
+msgstr "Habilitar Submenu"
+
+#: options.php:593
+#@ theme_textdomain
+msgid "Check if you want enable submenu nav. To configure it, go to Appearance - Menus."
+msgstr "Verifique se você quiser habilitar nav submenu. Para configurá-lo, vá até Aparência - Menus"
+
+#: options.php:598
+#@ theme_textdomain
+msgid "Enable Blog Slider"
+msgstr "Habilitar o Blog Slider"
+
+#: options.php:599
+#@ theme_textdomain
+msgid "Check to enable a blog slider."
+msgstr "Marque para habilitar o blog slider."
+
+#: options.php:605
+#: options.php:685
+#@ theme_textdomain
+msgid "Slider Settings"
+msgstr "Configurações do Slider"
+
+#: options.php:609
+#@ theme_textdomain
+msgid "No. of Slides"
+msgstr "Nº de Slides"
+
+#: options.php:610
+#@ theme_textdomain
+msgid "Select how many slides you want to display. Insert a value between 0 and 50. If you want to display all featured posts set the value to 0."
+msgstr "Selecione quantos slides você deseja exibir. Inserir um valor entre 0 e 50. Se você deseja exibir todos os posts em destaque definir o valor para 0."
+
+#: options.php:618
+#@ theme_textdomain
+msgid "Set the height of your slider between 5 and 900"
+msgstr "Ajuste o height do seu slider entre 5 e 900"
+
+#: options.php:626
+#@ theme_textdomain
+msgid "Choose the transition effect between different slides."
+msgstr "Escolha o efeito de transição entre os slides diferentes."
+
+#: options.php:632
+#@ theme_textdomain
+msgid "Set the time between slides. Choose a value in milliseconds between 0 and 60000. To make manual transitions set the value to 0. Remember that 1 second = 1000 milliseconds."
+msgstr "Defina o tempo entre slides. Escolha um valor em milissegundos entre 0 e 60000. Para fazer transições manuais definir o valor para 0. Lembre-se que 1 segundo = 1000 milissegundos."
+
+#: options.php:641
+#@ theme_textdomain
+msgid "Individual Posts Settings"
+msgstr "Configurações individuais dos Posts"
+
+#: options.php:642
+#@ theme_textdomain
+msgid "The following options apply to individual blog posts."
+msgstr "As opções a seguir se aplicam a cada postagem."
+
+#: options.php:645
+#@ theme_textdomain
+msgid "Enable Featured Image"
+msgstr "Habilitar Imagem em destaque"
+
+#: options.php:646
+#@ theme_textdomain
+msgid "Check to display the featured image at the beginning of the post."
+msgstr "Verifique para exibir a imagem em destaque no início do post."
+
+#: options.php:651
+#@ theme_textdomain
+msgid "Enable Author Bio"
+msgstr "Habilitar Bio autor "
+
+#: options.php:652
+#@ theme_textdomain
+msgid "Check to display the author bio at the end of the post."
+msgstr "Verifique para exibir a bio autor no final do post."
+
+#: options.php:657
+#@ theme_textdomain
+msgid "Overview excerpt"
+msgstr "Resumo do trecho"
+
+#: options.php:658
+#@ theme_textdomain
+msgid "Do you want the excerpt on the blog page to end automatically or according to the More Tag or Excerpt field, wich can be set manually by you when you edit a post?"
+msgstr "Você quer que o trecho na página do blog para terminar automaticamente ou de acordo com o Mais Tag ou campo Trecho, o qual pode ser ajustado manualmente por você quando você editar um post?"
+
+#: options.php:663
+#@ theme_textdomain
+msgid "Auto excerpt"
+msgstr "Auto trecho"
+
+#: options.php:664
+#@ theme_textdomain
+msgid "Manually insert more tag or excerpt field"
+msgstr "Inserir manualmente mais tag ou campo trecho"
+
+#: options.php:666
+#@ theme_textdomain
+msgid "Excerpt Length"
+msgstr "Comprimento do trecho"
+
+#: options.php:667
+#@ theme_textdomain
+msgid "How many words should the auto excerpt show on the blog page (overview)?"
+msgstr "Quantas palavras no caso de o trecho auto na página do blog (visão geral)?"
+
+#: options.php:679
+#@ theme_textdomain
+msgid "Enable Lightbox"
+msgstr "Habilitar Lightbox"
+
+#: options.php:680
+#@ theme_textdomain
+msgid "Check to enable the lightbox effect for the portfolio items preview."
+msgstr "Marque para habilitar o efeito lightbox para a visualização itens do portfólio."
+
+#: options.php:688
+#: options.php:754
+#: options.php:805
+#: options.php:876
+#@ theme_textdomain
+msgid "Height"
+msgstr ""
+
+#: options.php:689
+#: options.php:755
+#: options.php:806
+#: options.php:877
+#@ theme_textdomain
+msgid "Set the height of your slider between 5 and 900."
+msgstr "Definir a altura de seu slider entre 5 e 900."
+
+#: options.php:697
+#: options.php:764
+#: options.php:815
+#@ theme_textdomain
+msgid "Choose the transition effect between diferent sliders."
+msgstr "Escolha o efeito de transição entre sliders diferentes."
+
+#: options.php:703
+#: options.php:771
+#: options.php:822
+#@ theme_textdomain
+msgid "Set the time between slides. Choose a value in milliseconds between 0 and 60000. Remember that 1 second = 1000 milliseconds."
+msgstr "Defina o tempo entre slides. Escolha um valor em milissegundos entre 0 e 60000. Lembre-se que 1 segundo = 1000 milissegundos."
+
+#: options.php:712
+#@ theme_textdomain
+msgid "Enable Related Portfolio"
+msgstr "Habilitar Portfólios relacionados"
+
+#: options.php:713
+#@ theme_textdomain
+msgid "Enable related projects."
+msgstr "Habilitar projetos relacionados."
+
+#: options.php:719
+#@ theme_textdomain
+msgid "Related Portfolio Settings"
+msgstr "Configurações Portfólios Relacionados"
+
+#: options.php:723
+#@ theme_textdomain
+msgid "Related Portfolio Title"
+msgstr "Título de Portfólios Relacionados"
+
+#: options.php:724
+#@ theme_textdomain
+msgid "The title to related portfolio items."
+msgstr "O título para itens de Portfólios relacionados"
+
+#: options.php:728
+#@ theme_textdomain
+msgid "No. of Related Portfolio Items"
+msgstr "Nº de itens de Portfólios Relacionados"
+
+#: options.php:729
+#@ theme_textdomain
+msgid "Define how many related portfolio items are displayed in the sidebar. Values can be between 1 and 30."
+msgstr "Definir quantos itens portfólio relacionados são exibidos na barra lateral. Os valores podem ser entre 1 e 30."
+
+#: options.php:740
+#@ theme_textdomain
+msgid "Sliders"
+msgstr ""
+
+#: options.php:743
+#@ theme_textdomain
+msgid "Slider Manager"
+msgstr "Administração de Slider"
+
+#: options.php:744
+#@ theme_textdomain
+msgid "Create a new slider for your site. Click create a slider and follow the options."
+msgstr "Criar um novo slider para o seu site. Clique em criar um slider e siga as opções."
+
+#: options.php:750
+#@ theme_textdomain
+msgid "Nivo Slider"
+msgstr ""
+
+#: options.php:781
+#@ theme_textdomain
+msgid "Image URL"
+msgstr "URL da Imagem"
+
+#: options.php:782
+#@ theme_textdomain
+msgid "Url to the image file for this slide."
+msgstr "Url para o arquivo de imagem para este slide."
+
+#: options.php:788
+#: options.php:847
+#: options.php:935
+#@ theme_textdomain
+msgid "Optional - Add a title to your slide"
+msgstr "Opcional - Adicione um título para seu slide"
+
+#: options.php:794
+#: options.php:859
+#: options.php:947
+#@ theme_textdomain
+msgid "Optional - Link to an url when your slide is clicked"
+msgstr "Link para uma url quando seu slide é clicado - Opcional"
+
+#: options.php:801
+#@ theme_textdomain
+msgid "Cycle Slider"
+msgstr ""
+
+#: options.php:833
+#@ theme_textdomain
+msgid "Select slider layout."
+msgstr "Selecione o layout slider."
+
+#: options.php:840
+#@ theme_textdomain
+msgid "Image or Video URL"
+msgstr "URL da imagem ou vídeo"
+
+#: options.php:841
+#@ theme_textdomain
+msgid "Url to the image file for this slide or Vimeo/YouTube url."
+msgstr "URL para o arquivo de imagem para esse slide ou Vimeo / url YouTube."
+
+#: options.php:853
+#: options.php:941
+#@ theme_textdomain
+msgid "Optional - Add a description to your slide"
+msgstr "Opcional - Adicione uma descrição para seu slide"
+
+#: options.php:864
+#@ theme_textdomain
+msgid "Anchor"
+msgstr "Âncora"
+
+#: options.php:865
+#@ theme_textdomain
+msgid "Optional - Link anchor text"
+msgstr "Opcional - texto âncora do link"
+
+#: options.php:872
+#@ theme_textdomain
+msgid "3D Slider"
+msgstr ""
+
+#: options.php:885
+#@ theme_textdomain
+msgid "Width"
+msgstr ""
+
+#: options.php:886
+#@ theme_textdomain
+msgid "Set the width of your slider between 5 and 940"
+msgstr "Defina a largura do seu controle deslizante entre 5 e 940"
+
+#: options.php:894
+#@ theme_textdomain
+msgid "No. of piezes"
+msgstr "N º de peças"
+
+#: options.php:895
+#@ theme_textdomain
+msgid "Number of pieces to which the item is sliced. Range between 1 and 50"
+msgstr "Número de peças para que o item é cortado. Intervalo entre 1 e 50"
+
+#: options.php:904
+#@ theme_textdomain
+msgid "Set the time between slides. Choose a value in seconds between 0 and 19."
+msgstr "Defina o tempo entre slides. Escolha um valor em segundos entre 0 e 19."
+
+#: options.php:914
+#@ theme_textdomain
+msgid "File Type"
+msgstr "Tipo de Arquivo"
+
+#: options.php:915
+#@ theme_textdomain
+msgid "Select the file type for this slide."
+msgstr "Selecione o tipo de arquivo para esse slide."
+
+#: options.php:922
+#@ theme_textdomain
+msgid "File URL"
+msgstr "URL do arquivo"
+
+#: options.php:923
+#@ theme_textdomain
+msgid "Url to image, video or flash file."
+msgstr "Url para arquivo de imagem, vídeo ou flash."
+
+#: options.php:928
+#@ theme_textdomain
+msgid "Image preview URL"
+msgstr "URL de visualização de imagem"
+
+#: options.php:929
+#@ theme_textdomain
+msgid "Use image preview only with flash files."
+msgstr "Utilizar pré-visualização de imagem apenas com arquivos flash."
+
+#: options.php:959
+#@ theme_textdomain
+msgid "Sidebars"
+msgstr "Barra lateral"
+
+#: options.php:962
+#@ theme_textdomain
+msgid "Sidebar Manager"
+msgstr "Administração da Barra lateral"
+
+#: options.php:963
+#@ theme_textdomain
+msgid "Create a new sidebar for your site. Insert a name and click the button."
+msgstr "Criar uma nova barra lateral do seu site. Insira um nome e clique no botão."
+
+#: options.php:971
+#@ theme_textdomain
+msgid "Social"
+msgstr ""
+
+#: options.php:979
+#@ theme_textdomain
+msgid "Profile URL"
+msgstr "URL do perfil"
+
+#: options.php:983
+#@ theme_textdomain
+msgid "Caption Text"
+msgstr "Texto da Legenda"
+
+#: options.php:995
+#@ theme_textdomain
+msgid "Translation"
+msgstr "Tradução"
+
+#: options.php:998
+#@ theme_textdomain
+msgid "Translation type"
+msgstr "Tipo de Tradução"
+
+#: options.php:999
+#@ theme_textdomain
+msgid "Check .mo files if you want to use these files for the theme translation. For example en_US for the english version or es_ES to translate to Spanish"
+msgstr ""
+
+#: options.php:1004
+#@ theme_textdomain
+msgid "Using .mo files"
+msgstr "Usar arquivo de tradução .mo"
+
+#: options.php:1005
+#@ theme_textdomain
+msgid "Do it yourself below"
+msgstr "Faça você mesmo abaixo"
+
+#: options.php:1007
+#@ theme_textdomain
+msgid "Do it yourself"
+msgstr "Faça você mesmo"
+
+#: options.php:1013
+#@ theme_textdomain
+msgid "Read more"
+msgstr "Continuar lendo"
+
+#: options.php:1025
+#@ theme_textdomain
+msgid "About the author"
+msgstr "Sobre o autor"
+
+#: options.php:1049
+#@ theme_textdomain
+msgid "Categories"
+msgstr "Categorias"
+
+#: options.php:1055
+#@ theme_textdomain
+msgid "Newer Entries"
+msgstr "Novas publicações"
+
+#: options.php:1061
+#@ theme_textdomain
+msgid "Older Entries"
+msgstr "Publicações antigas"
+
+#: options.php:1072
+#@ theme_textdomain
+msgid "Password Protected"
+msgstr "Senha Protegida"
+
+#: options.php:1078
+#@ theme_textdomain
+msgid "Comments are closed"
+msgstr "Os comentários estão fechados"
+
+#: options.php:1084
+#@ theme_textdomain
+msgid "Trackbacks for this post"
+msgstr "Trackbacks para esse post"
+
+#: options.php:1090
+#@ theme_textdomain
+msgid "Leave a Comment"
+msgstr "Deixe um Comentário"
+
+#: options.php:1096
+#@ theme_textdomain
+msgid "Leave a Comment to"
+msgstr "Deixe um Comentário para"
+
+#: options.php:1102
+#@ theme_textdomain
+msgid "Says"
+msgstr "Diz"
+
+#: options.php:1108
+#@ theme_textdomain
+msgid "At"
+msgstr "em"
+
+#: options.php:1114
+#@ theme_textdomain
+msgid "Reply"
+msgstr "Responder"
+
+#: options.php:1120
+#: options.php:1220
+#@ theme_textdomain
+msgid "Name"
+msgstr "Nome"
+
+#: options.php:1126
+#: options.php:1226
+#@ theme_textdomain
+msgid "Email"
+msgstr "Email"
+
+#: options.php:1132
+#@ theme_textdomain
+msgid "Website"
+msgstr "Website"
+
+#: options.php:1138
+#@ theme_textdomain
+msgid "Submit Comment"
+msgstr "Deixar comentário"
+
+#: options.php:1144
+#@ theme_textdomain
+msgid "Awaiting moderation"
+msgstr "Aguardando aprovação"
+
+#: options.php:1150
+#@ theme_textdomain
+msgid "Before commenting"
+msgstr "Antes de comentar"
+
+#: options.php:1158
+#: options.php:1161
+#@ theme_textdomain
+msgid "Archive"
+msgstr "Arquivo"
+
+#: options.php:1167
+#@ theme_textdomain
+msgid "Category:"
+msgstr "Categoria:"
+
+#: options.php:1173
+#@ theme_textdomain
+msgid "Tag:"
+msgstr ""
+
+#: options.php:1179
+#@ theme_textdomain
+msgid "Author"
+msgstr "Autor"
+
+#: options.php:1185
+#@ theme_textdomain
+msgid "Portfolio: All categories"
+msgstr "Portfólio: Todas categorias"
+
+#: options.php:1191
+#@ theme_textdomain
+msgid "Last 10 Posts"
+msgstr "Últimas 10 postagens"
+
+#: options.php:1197
+#@ theme_textdomain
+msgid "Archives by Month:"
+msgstr "Arquivos por Mês:"
+
+#: options.php:1203
+#@ theme_textdomain
+msgid "Archives by Category:"
+msgstr "Arquivos por Categoria:"
+
+#: options.php:1209
+#@ theme_textdomain
+msgid "Empty Archive"
+msgstr "Arquivo vazio"
+
+#: options.php:1217
+#@ theme_textdomain
+msgid "Contact"
+msgstr "Contato"
+
+#: options.php:1232
+#@ theme_textdomain
+msgid "Name: Error"
+msgstr "Nome: Erro"
+
+#: options.php:1238
+#@ theme_textdomain
+msgid "Email: Error"
+msgstr "Email: Erro"
+
+#: options.php:1244
+#@ theme_textdomain
+msgid "Message: Error"
+msgstr "Mensagem: Erro"
+
+#: options.php:1250
+#@ theme_textdomain
+msgid "Submit Email"
+msgstr "Enviar Email"
+
+#: options.php:1256
+#@ theme_textdomain
+msgid "Email Sent"
+msgstr "Email Enviado"
+
+#: options.php:1264
+#: options.php:1273
+#@ theme_textdomain
+msgid "Login"
+msgstr "Login"
+
+#: options.php:1267
+#@ theme_textdomain
+msgid "Register"
+msgstr "Registrar"
+
+#: options.php:1285
+#@ theme_textdomain
+msgid "Password"
+msgstr "Senha"
+
+#: options.php:1291
+#@ theme_textdomain
+msgid "Remember me"
+msgstr "Lembre-me"
+
+#: options.php:1297
+#@ theme_textdomain
+msgid "Recover password"
+msgstr "Recuperar Senha"
+
+#: options.php:1303
+#@ theme_textdomain
+msgid "You are logged in as"
+msgstr "Você está logado como"
+
+#: options.php:1309
+#@ theme_textdomain
+msgid "Logout"
+msgstr "Sair"
+
+#: options.php:1317
+#@ theme_textdomain
+msgid "Search"
+msgstr "Buscar"
+
+#: options.php:1320
+#@ theme_textdomain
+msgid "Search Text"
+msgstr "Buscar Texto"
+
+#: options.php:1326
+#@ theme_textdomain
+msgid "Search Button"
+msgstr "Botão Buscar"
+
+#: options.php:1332
+#@ theme_textdomain
+msgid "Search Results"
+msgstr "Resultado da busca"
+
+#: options.php:1338
+#@ theme_textdomain
+msgid "Empty Search"
+msgstr "Nenhum resultado"
+
+#: options.php:1346
+#@ theme_textdomain
+msgid "Errors"
+msgstr "Erros"
+
+#: options.php:1349
+#@ theme_textdomain
+msgid "Error 404: Title"
+msgstr "Erro 404: Título"
+
+#: options.php:1355
+#@ theme_textdomain
+msgid "Error 404: Message"
+msgstr "Erro 404: Mensagem"
+
+#: options.php:1368
+#@ theme_textdomain
+msgid "Image Resizing"
+msgstr "Editar tamanho da imagem"
+
+#: options.php:1371
+#@ theme_textdomain
+msgid "Define the size of images"
+msgstr "Definir o tamanho da imagem"
+
+#: options.php:1372
+#@ theme_textdomain
+msgid "You can define the height of different images between 5 and 1500 px. The image width can not be modified."
+msgstr "Você pode definir a altura das imagens diferentes entre 5 e 1500 px. A largura de imagem não pode ser modificada."
+
+#: options.php:1375
+#@ theme_textdomain
+msgid "Blog Images"
+msgstr "Imagens Blog"
+
+#: options.php:1378
+#@ theme_textdomain
+msgid "Blog Style 1"
+msgstr ""
+
+#: options.php:1379
+#@ theme_textdomain
+msgid "px Height - 940 px Width -OR- 620 px with Sidebar option"
+msgstr "px Height - 940 px Width -OR- 620 px com opção Sidebar"
+
+#: options.php:1387
+#@ theme_textdomain
+msgid "Blog Style 2"
+msgstr ""
+
+#: options.php:1388
+#@ theme_textdomain
+msgid "px Height - 105 px Width -OR- 200 px with Sidebar option"
+msgstr "px Height - 940 px Width -OR- 620 px com opção Sidebar"
+
+#: options.php:1396
+#@ theme_textdomain
+msgid "Blog Style 3"
+msgstr ""
+
+#: options.php:1397
+#@ theme_textdomain
+msgid "px Height - 300 px Width"
+msgstr ""
+
+#: options.php:1405
+#@ theme_textdomain
+msgid "Single Post"
+msgstr "Post único"
+
+#: options.php:1406
+#: options.php:1492
+#@ theme_textdomain
+msgid "px Height - 940 px Width"
+msgstr ""
+
+#: options.php:1416
+#@ theme_textdomain
+msgid "Portfolio Images"
+msgstr "Imagens de Portfólio"
+
+#: options.php:1419
+#@ theme_textdomain
+msgid "One Column Portfolio"
+msgstr "Uma coluna Portfólio"
+
+#: options.php:1420
+#@ theme_textdomain
+msgid "px Height - 920 px Width"
+msgstr ""
+
+#: options.php:1428
+#@ theme_textdomain
+msgid "One Column Portfolio with Sidebar"
+msgstr "Uma coluna Portfólio com Sidebar"
+
+#: options.php:1429
+#@ theme_textdomain
+msgid "px Height - 600 px Width"
+msgstr ""
+
+#: options.php:1437
+#@ theme_textdomain
+msgid "Two Columns Portfolio"
+msgstr "Portfólio com duas colunas"
+
+#: options.php:1438
+#@ theme_textdomain
+msgid "px Height - 450 px Width"
+msgstr ""
+
+#: options.php:1446
+#@ theme_textdomain
+msgid "Two Columns Portfolio with Sidebar"
+msgstr "Portfólio com duas colunas com Sidebar"
+
+#: options.php:1447
+#@ theme_textdomain
+msgid "px Height - 290 px Width"
+msgstr ""
+
+#: options.php:1455
+#@ theme_textdomain
+msgid "Three Columns Portfolio"
+msgstr "Portfólio com 3 colunas"
+
+#: options.php:1456
+#: options.php:1501
+#@ theme_textdomain
+msgid "px Height - 293 px Width"
+msgstr ""
+
+#: options.php:1464
+#@ theme_textdomain
+msgid "Three Columns Portfolio with Sidebar"
+msgstr "Portfólio com três colunas e Sidebar"
+
+#: options.php:1465
+#@ theme_textdomain
+msgid "px Height - 186 px Width"
+msgstr ""
+
+#: options.php:1473
+#@ theme_textdomain
+msgid "Four Columns Portfolio"
+msgstr "Portfólio com quatro colunas"
+
+#: options.php:1474
+#@ theme_textdomain
+msgid "px Height - 215 px Width"
+msgstr ""
+
+#: options.php:1482
+#@ theme_textdomain
+msgid "Four Columns Portfolio with Sidebar"
+msgstr "Portfólio com quatro colunas e Sidebar"
+
+#: options.php:1483
+#@ theme_textdomain
+msgid "px Height - 135 px Width"
+msgstr ""
+
+#: options.php:1491
+#@ theme_textdomain
+msgid "Single Portfolio"
+msgstr "Portfólio Único"
+
+#: options.php:1500
+#@ theme_textdomain
+msgid "Portfolio Related"
+msgstr "Portfolio Relacionado"
+
+#: options.php:1517
+#@ theme_textdomain
+msgid "Enable Footer Widgets"
+msgstr "Habilitar widgets de rodapé."
+
+#: options.php:1518
+#@ theme_textdomain
+msgid "Check to enable footer widgets."
+msgstr "Marque para habilitar widgets de rodapé."
+
+#: options.php:1525
+#@ theme_textdomain
+msgid "Select the layout for your footer widget area."
+msgstr "Selecione o layout para a sua área Widget rodapé."
+
+#: options.php:1532
+#@ theme_textdomain
+msgid "Enable Social Area"
+msgstr "Habilitar área Social"
+
+#: options.php:1533
+#@ theme_textdomain
+msgid "Check to enable the social footer area. To configure social icons and links go to the Social section."
+msgstr "Check to enable the social footer area. To configure social icons and links go to the Social section."
+
+#: options.php:1539
+#@ theme_textdomain
+msgid "Social Area Settings"
+msgstr "Configuração da área Social"
+
+#: options.php:1543
+#@ theme_textdomain
+msgid "Call To Action"
+msgstr "Chamado à Ação"
+
+#: options.php:1544
+#@ theme_textdomain
+msgid "Define a call to action text to engage your user to contact you."
+msgstr "Definir uma chamada para o texto ação para envolver o usuário entrar em contato com você."
+
+#: options.php:1549
+#@ theme_textdomain
+msgid "Style"
+msgstr ""
+
+#: options.php:1550
+#@ theme_textdomain
+msgid "Choose if you want to display just the icons or icons with related text for each of them. This text attached to each icon can be defined in the Social tab."
+msgstr "Escolha se quer exibir apenas os ícones ou ícones com texto relacionado para cada um deles. Este texto ligado a cada ícone pode ser definido no separador Social."
+
+#: options.php:1571
+#@ theme_textdomain
+msgid "Copyright Message"
+msgstr "Mensagem Copyright"
+
+#: options.php:1576
+#@ theme_textdomain
+msgid "WordPress Credit"
+msgstr "Créditos WordPress"
+
+#: options.php:1577
+#@ theme_textdomain
+msgid "Enable text: Proudly powered by WordPress"
+msgstr "Habilitar texto: Criado por WordPress"
+
+#: options.php:1582
+#@ theme_textdomain
+msgid "Developer Credit"
+msgstr "Créditos do desenvolvedor"
+
+#: options.php:1583
+#@ theme_textdomain
+msgid "Enable 'Developed by Marcos Fdez Villauriz'"
+msgstr "Ativar: Desenvolvido por Khan"
+
+#: page.php:34
+#: single-portfolio.php:51
+#: single.php:33
+#: template-archive.php:27
+#: template-contact.php:69
+#: template-home.php:58
+#@ theme_textdomain
+msgid "Edit this"
+msgstr "Editar esse"
+
+#: template-home.php:75
+#@ theme_textdomain
+msgid "Error 404 - Not Found"
+msgstr "Erro 404 - Conteúdo não encontrado"
+
+#: template-home.php:78
+#@ theme_textdomain
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr "Desculpe, mas você está procurando por algo que não está aqui."
+

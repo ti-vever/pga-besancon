@@ -1,0 +1,60 @@
+.post-meta-boxes .section {
+	margin-bottom: 10px;
+}
+.post-meta-boxes .section .controls {
+	float: left;
+	width: 65%;
+	margin: 0 5% 0 0;
+}
+.post-meta-boxes .section .explain {
+	float: left;
+	width: 30%;
+	font-size: 11px;
+	color: #999999;
+}
+.post-meta-boxes .section#sidebars_section .explain{
+	width: 26%;
+	padding: 3px 1.5%;
+	font-size: 13px;
+	line-height: 1.6;
+	background-color: #fffbcc;
+	border: 1px solid #e6db55;
+	color: #000;
+	font-weight: bold;
+}
+.post-meta-boxes .section .controls input{
+	width: 100%;
+}
+.post-meta-boxes .section .controls .upload_field{
+	width: 85%;
+	margin-right: 1%;
+}
+.post-meta-boxes .section .controls .upload_button{
+	width: 11%;
+	cursor: pointer;
+}
+.post-meta-boxes h4.heading{
+	margin: 10px 0 10px 0;
+	padding: 7px 0px;
+	border-bottom: 1px solid #e7e7e7;
+}
+.post-meta-boxes .controls .of-radio-img-img {
+	border:3px solid #fff;
+	margin:0 5px 10px 0;
+	display:none;
+	cursor:pointer;
+	float:left;
+}
+.post-meta-boxes .controls .of-radio-img-label,
+.post-meta-boxes .controls .of-radio-img-radio{
+	display: none;
+}
+.post-meta-boxes .controls .of-radio-img-selected {
+	border:3px solid #ccc
+}
+.post-meta-boxes .controls .of-radio-img-img:hover {
+	opacity:.8;
+}
+#example{
+	background-color: red;
+}
