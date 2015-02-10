@@ -84,7 +84,7 @@ summary {
 }
 
 footer{
-	padding:15px 0;
+	padding:15px 15px;
 }
 
 audio,
@@ -819,11 +819,12 @@ img.wp-smiley,
  * ----------------------------------------------------------------------------
  */
 
-.site-header {
+.site-header-custom {
 	position: relative;
+	background:url(images/headers/header.jpg) top center no-repeat;
 }
 
-.site-header .home-link {
+.site-header-custom .home-link {
 	color: #141412;
 	display: block;
 	margin: 0 auto;
@@ -834,13 +835,13 @@ img.wp-smiley,
 	width: 100%;
 }
 
-.site-header .site-title:hover {
+.site-header-custom .site-title:hover {
 	text-decoration: none;
 }
 
 .site-title {
 	font-size: 2em;
-	font-weight: bold;
+	font-weight: normal;
 	line-height: 1;
 	margin: 0;
 	padding: 58px 0 10px;
@@ -959,13 +960,13 @@ ul.nav-menu .focus > ul,
 	width: 100%;
 }
 
-.site-header .search-form {
+.site-header-custom .search-form {
 	position: absolute;
 	right: 20px;
 	top: 1px;
 }
 
-.site-header .search-field {
+.site-header-custom .search-field {
 	background-color: transparent;
 	background-image: url(images/search-icon.png);
 	background-position: 5px center;
@@ -982,7 +983,7 @@ ul.nav-menu .focus > ul,
 	width: 1px;
 }
 
-.site-header .search-field:focus {
+.site-header-custom .search-field:focus {
 	background-color: #fff;
 	border: 2px solid #c3c0ab;
 	cursor: text;
@@ -2642,6 +2643,20 @@ article.post{
 	margin:0 auto;
 }
 
+footer>div{
+	max-width:1080px;
+	position: relative;
+	margin:0 auto;
+}
+
+footer>div>span.left{
+	float:left;
+}
+
+footer>div>span.right{
+	float:right;
+}
+
 
 /**
  * 8.0 Media Queries
@@ -2723,6 +2738,22 @@ article.post{
 }
 
 @media (max-width: 999px) {
+	.site-title{
+		padding:0;
+	}
+
+	.site-header-custom{
+		background-size:1100px;
+		padding:20px 0 0;
+	}
+
+	.site-header-custom .home-link{
+		min-height: 0;
+		background:rgba(255,255,255,0.6);
+		margin:0 0 20px;
+		padding:20px;
+	}
+
 	.sidebar .entry-header,
 	.sidebar .entry-content,
 	.sidebar .entry-summary,
@@ -2817,12 +2848,19 @@ article.post{
 
 /* Collapse oversized image and pulled images after iPad breakpoint. */
 @media (max-width: 767px) {
-	.site-header .home-link {
+	.site-header-custom{
+		padding:20px 0 0;
+	}
+	.site-header-custom .home-link {
 		min-height: 0;
+		margin:0 0 20px;
 	}
 	.site-title {
-		font-size: 36px;
+		font-size: 1.6em;
 		padding: 8px 0 10px;
+	}
+	.site-description{
+		font-size:1.2em;
 	}
 	.entry-content img.alignleft,
 	.entry-content .wp-caption.alignleft {
@@ -2847,8 +2885,16 @@ article.post{
 }
 
 @media (max-width: 643px) {
+	.site-header-custom{
+		background-position: top right;
+	}
+
 	.site-title {
-		font-size: 30px;
+		font-size:1.6em;
+	}
+
+	.site-description{
+		display: none;
 	}
 
 	#content .entry-header,
@@ -3041,7 +3087,7 @@ article.post{
 /* Mobile devices */
 @media (max-width: 359px) {
 	.site-title {
-		font-weight: normal;
+		font-size:1.5em;
 	}
 	.site-description {
 	    clip: rect(1px, 1px, 1px, 1px);
@@ -3121,7 +3167,7 @@ article.post{
 	(-webkit-min-device-pixel-ratio: 1.25),
 	(min-resolution: 120dpi) {
 
-	.site-header .search-field {
+	.site-header-custom .search-field {
 		background-image: url(images/search-icon-2x.png);
 	}
 
@@ -3150,11 +3196,11 @@ article.post{
 		max-width: 98%;
 	}
 
-	.site-header {
+	.site-header-custom {
 		background-image: none !important;
 	}
 
-	.site-header .home-link {
+	.site-header-custom .home-link {
 		max-width: none;
 		min-height: 0;
 	}

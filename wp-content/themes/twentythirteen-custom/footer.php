@@ -12,7 +12,10 @@
 
 		</div><!-- #main -->
 		<footer id="colophon" class="site-footer" role="contentinfo">
-			© Anne-Laure CHARLES | 2015
+			<div>
+				<span class="left">© Anne-Laure CHARLES | 2015</span><span class="right">Conçu par Hervé AMIOT</span>
+				<div class="clear"></div>
+			</div>
 		</footer><!-- #colophon -->
 	</div><!-- #page -->
 
