@@ -26,15 +26,16 @@ Description: Used to style the TinyMCE editor.
  * 1.0 Body
  * ----------------------------------------------------------------------------
  */
+ @import url(http://fonts.googleapis.com/css?family=Roboto:400,300,700,300italic,400italic,700italic);
 
 html .mceContentBody {
 	font-size: 100%;
-	max-width: 604px;
+	max-width: 1080px;
 }
 
 body {
 	color: #141412;
-	font-family: "Source Sans Pro", Helvetica, sans-serif;
+	font-family: "Roboto";
 	line-height: 1.5;
 	text-rendering: optimizeLegibility;
 	vertical-align: baseline;
@@ -239,12 +240,12 @@ sub {
  */
 
 a {
-	color: #ca3c08;
+	color: #2E8B74;
 	text-decoration: none;
 }
 
 a:visited {
-	color: #ac0404;
+	color: #2E8B74;
 }
 
 a:focus {
@@ -253,12 +254,8 @@ a:focus {
 
 a:active,
 a:hover {
-	color: #ea9629;
+	color: #B38B37;
 	outline: 0;
-}
-
-a:hover {
-	text-decoration: underline;
 }
 
 

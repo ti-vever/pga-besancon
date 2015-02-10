@@ -24,6 +24,14 @@ $redirect_network_admin_request = 0 !== strcasecmp( $current_blog->domain, $curr
  *
  * @param bool $redirect_network_admin_request Whether the request should be redirected.
  */
+
+/*
+echo "current blog domain: ".$current_blog->domain.'<br />';
+echo "current site domain: ".$current_site->domain.'<br />';
+echo "current blog path: ".$current_blog->path.'<br />';
+echo "current site path: ".$current_site->path.'<br />';
+exit;
+*/
 $redirect_network_admin_request = apply_filters( 'redirect_network_admin_request', $redirect_network_admin_request );
 if ( $redirect_network_admin_request ) {
 	wp_redirect( network_admin_url() );

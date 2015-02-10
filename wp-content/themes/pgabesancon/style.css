@@ -1,14 +1,11 @@
 /*
-Theme Name: Twenty Thirteen
-Theme URI: http://wordpress.org/themes/twentythirteen
-Author: the WordPress team
-Author URI: http://wordpress.org/
+Theme Name: PGA Besançon
+Author: Hervé AMIOT
 Description: The 2013 theme for WordPress takes us back to the blog, featuring a full range of post formats, each displayed beautifully in their own unique way. Design details abound, starting with a vibrant color scheme and matching header images, beautiful typography and icons, and a flexible layout that looks great on any device, big or small.
-Version: 1.4
+Version: 1
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Tags: black, brown, orange, tan, white, yellow, light, one-column, two-columns, right-sidebar, fluid-layout, responsive-layout, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready, accessibility-ready
-Text Domain: twentythirteen
+Text Domain: pgabesancon
 
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
@@ -119,7 +116,7 @@ textarea {
 
 body {
 	color: #141412;
-	background: #E8E5CE;
+	background: #E0E0E0;
 	line-height: 1.5;
 	margin: 0;
 }
@@ -819,12 +816,12 @@ img.wp-smiley,
  * ----------------------------------------------------------------------------
  */
 
-.site-header-custom {
+.site-header {
 	position: relative;
 	background:url(images/headers/header.jpg) top center no-repeat;
 }
 
-.site-header-custom .home-link {
+.site-header .home-link {
 	color: #141412;
 	display: block;
 	margin: 0 auto;
@@ -835,7 +832,7 @@ img.wp-smiley,
 	width: 100%;
 }
 
-.site-header-custom .site-title:hover {
+.site-header .site-title:hover {
 	text-decoration: none;
 }
 
@@ -960,13 +957,13 @@ ul.nav-menu .focus > ul,
 	width: 100%;
 }
 
-.site-header-custom .search-form {
+.site-header .search-form {
 	position: absolute;
 	right: 20px;
 	top: 1px;
 }
 
-.site-header-custom .search-field {
+.site-header .search-field {
 	background-color: transparent;
 	background-image: url(images/search-icon.png);
 	background-position: 5px center;
@@ -983,7 +980,7 @@ ul.nav-menu .focus > ul,
 	width: 1px;
 }
 
-.site-header-custom .search-field:focus {
+.site-header .search-field:focus {
 	background-color: #fff;
 	border: 2px solid #c3c0ab;
 	cursor: text;
@@ -2071,7 +2068,7 @@ footer.entry-meta {
  */
 
 .page-header {
-	background-color: #e8e5ce;
+	background-color: #E0E0E0;
 	margin:0 -20px;
 }
 
@@ -2564,8 +2561,8 @@ footer.entry-meta {
  */
 
 .site-footer {
-	background-color: #e8e5ce;
-	color: #686758;
+	background-color: #E0E0E0;
+	color: #666;
 	font-size: 14px;
 	text-align: center;
 }
@@ -2742,12 +2739,12 @@ footer>div>span.right{
 		padding:0;
 	}
 
-	.site-header-custom{
+	.site-header{
 		background-size:1100px;
 		padding:20px 0 0;
 	}
 
-	.site-header-custom .home-link{
+	.site-header .home-link{
 		min-height: 0;
 		background:rgba(255,255,255,0.6);
 		margin:0 0 20px;
@@ -2848,10 +2845,10 @@ footer>div>span.right{
 
 /* Collapse oversized image and pulled images after iPad breakpoint. */
 @media (max-width: 767px) {
-	.site-header-custom{
+	.site-header{
 		padding:20px 0 0;
 	}
-	.site-header-custom .home-link {
+	.site-header .home-link {
 		min-height: 0;
 		margin:0 0 20px;
 	}
@@ -2885,7 +2882,7 @@ footer>div>span.right{
 }
 
 @media (max-width: 643px) {
-	.site-header-custom{
+	.site-header{
 		background-position: top right;
 	}
 
@@ -3167,7 +3164,7 @@ footer>div>span.right{
 	(-webkit-min-device-pixel-ratio: 1.25),
 	(min-resolution: 120dpi) {
 
-	.site-header-custom .search-field {
+	.site-header .search-field {
 		background-image: url(images/search-icon-2x.png);
 	}
 
@@ -3196,11 +3193,11 @@ footer>div>span.right{
 		max-width: 98%;
 	}
 
-	.site-header-custom {
+	.site-header {
 		background-image: none !important;
 	}
 
-	.site-header-custom .home-link {
+	.site-header .home-link {
 		max-width: none;
 		min-height: 0;
 	}

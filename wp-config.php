@@ -19,7 +19,7 @@
 
 // ** Réglages MySQL - Votre hébergeur doit vous fournir ces informations. ** //
 /** Nom de la base de données de WordPress. */
-define('DB_NAME', 'camps_besancon');
+define('DB_NAME', 'pgabesancon');
 
 /** Utilisateur de la base de données MySQL. */
 define('DB_USER', 'root');
@@ -83,7 +83,7 @@ define('WP_DEBUG', false);
 define('WP_ALLOW_MULTISITE', true);
 define('MULTISITE', true);
 define('SUBDOMAIN_INSTALL', false);
-define('DOMAIN_CURRENT_SITE', 'annelaure.com');
+define('DOMAIN_CURRENT_SITE', 'www.pga-besancon.eu');
 define('PATH_CURRENT_SITE', '/');
 define('SITE_ID_CURRENT_SITE', 1);
 define('BLOG_ID_CURRENT_SITE', 1);
