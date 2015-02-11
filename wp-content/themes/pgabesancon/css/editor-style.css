@@ -176,10 +176,24 @@ q:after {
 }
 
 blockquote {
-	font-size: 24px;
+	position: relative;
+	font-size: 1.1em;
 	font-style: italic;
 	font-weight: 300;
 	margin: 24px 40px;
+	text-indent: 20px;
+	border-left:10px solid #FFECC3;
+	padding:5px 20px;
+}
+
+blockquote:before{
+	font-family: "Georgia";
+	font-size:4em;
+	position: absolute;
+	color:#CCC;
+	content:"\201C";
+	top:-25px;
+	left:-20px;
 }
 
 blockquote blockquote {
@@ -240,12 +254,12 @@ sub {
  */
 
 a {
-	color: #2E8B74;
+	color: #9A7FC6;
 	text-decoration: none;
 }
 
 a:visited {
-	color: #2E8B74;
+	color: #9A7FC6;
 }
 
 a:focus {

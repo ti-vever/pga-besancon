@@ -19,11 +19,11 @@
 		<?php endif; ?>
 
 		<?php if ( is_single() ) : ?>
-		<h1 class="entry-title"><?php the_title(); ?></h1>
+		<h2 class="entry-title"><?php the_title(); ?></h2>
 		<?php else : ?>
-		<h1 class="entry-title">
+		<h2 class="entry-title">
 			<a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a>
-		</h1>
+		</h2>
 		<?php endif; // is_single() ?>
 
 		<div class="entry-meta">

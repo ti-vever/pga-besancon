@@ -71,3 +71,23 @@ if ( file_exists( ABSPATH . 'wp-config.php') ) {
 
 	wp_die( $die, __( 'WordPress &rsaquo; Error' ) );
 }
+
+/* REDIRECT SI DANS BLOG RACINE */
+if(in_array(get_current_blog_id(), array(1,3)) && strpos($_SERVER['PHP_SELF'],'wp-admin') === false){
+	$lang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'],0,2);
+
+	switch($lang){
+		/*case 'fr':
+			wp_redirect(get_site_url(2));
+		break;
+
+		case 'de':
+			wp_redirect(get_site_url(3));
+		break;*/
+
+		default:
+			wp_redirect(get_site_url(2));
+		break;
+	}
+	exit();
+}

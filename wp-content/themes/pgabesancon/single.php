@@ -11,6 +11,15 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<div id="content" class="site-content" role="main">
+			<header class="content-header">
+				<?php if ( has_post_thumbnail() && ! post_password_required() ) : ?>
+				<div class="entry-thumbnail">
+					<?php the_post_thumbnail(); ?>
+				</div>
+				<?php endif; ?>
+
+				<h1 class="entry-title"><?php echo get_the_title(get_option('page_for_posts')); ?></h1>
+			</header><!-- .entry-header -->
 
 			<?php /* The loop */ ?>
 			<?php while ( have_posts() ) : the_post(); ?>
