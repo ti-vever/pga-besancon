@@ -16,7 +16,7 @@
  *
  * @package WordPress
  */
-define('ENVIRONNEMENT','production');
+define('ENVIRONNEMENT','development');
 
 switch(ENVIRONNEMENT){
 	case "development":

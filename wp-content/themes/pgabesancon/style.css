@@ -2936,6 +2936,10 @@ blockquote:before{
 }
 
 @media (max-width: 643px) {
+	.site-main{
+		padding: 0;
+	}
+
 	.site-header{
 		background-position: top right;
 	}
@@ -2964,8 +2968,6 @@ blockquote:before{
 	.comment-respond,
 	.sidebar .site-info,
 	.sidebar .paging-navigation .nav-links {
-		padding-left: 20px;
-		padding-right: 20px;
 	}
 
 	#content .format-status .entry-content,
@@ -3043,8 +3045,7 @@ blockquote:before{
 
 	.toggled-on .nav-menu > li a:hover,
 	.toggled-on .nav-menu > ul a:hover {
-		background-color: #db572f;
-		color: #fff;
+		background-color: #FFE0A0;
 	}
 
 	.toggled-on .nav-menu > li a:focus,
