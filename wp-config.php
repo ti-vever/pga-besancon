@@ -16,19 +16,36 @@
  *
  * @package WordPress
  */
+define('ENVIRONNEMENT','production');
 
+switch(ENVIRONNEMENT){
+	case "development":
+		$db_name = 'pgabesancon';
+		$db_user = 'root';
+		$db_password = '';
+		$db_host = 'localhost';
+	break;
+
+	case "production":
+		$db_name = 'pgabesanpproot';
+		$db_user = 'pgabesanpproot';
+		$db_password = 'sAx02T3on6';
+		$db_host = 'pgabesanpproot.mysql.db';
+
+	break;
+}
 // ** Réglages MySQL - Votre hébergeur doit vous fournir ces informations. ** //
 /** Nom de la base de données de WordPress. */
-define('DB_NAME', 'pgabesancon');
+define('DB_NAME', $db_name);
 
 /** Utilisateur de la base de données MySQL. */
-define('DB_USER', 'root');
+define('DB_USER', $db_user);
 
 /** Mot de passe de la base de données MySQL. */
-define('DB_PASSWORD', '');
+define('DB_PASSWORD', $db_password);
 
 /** Adresse de l'hébergement MySQL. */
-define('DB_HOST', 'localhost');
+define('DB_HOST', $db_host);
 
 /** Jeu de caractères à utiliser par la base de données lors de la création des tables. */
 define('DB_CHARSET', 'utf8');

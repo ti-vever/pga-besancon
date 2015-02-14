@@ -746,7 +746,7 @@ img.alignnone {
 .entry-caption,
 .gallery-caption {
 	color: #220e10;
-	font-size: 18px;
+	font-size: 0.8em;
 	font-style: italic;
 	font-weight: 300;
 	margin: 0 0 24px;
@@ -870,6 +870,11 @@ ul.nav-menu,
 div.nav-menu > ul {
 	margin: 0;
 	padding: 0 40px 0 0;
+	font-weight: 300;
+}
+
+div.nav-menu>ul>li>a {
+	text-transform: uppercase;
 }
 
 .nav-menu li {
@@ -2697,6 +2702,10 @@ blockquote:before{
 @keyframes slideFromLeft {
 	from{padding-left:0;}
 	to{padding-left:40px;}
+}
+
+.note_page{
+	font-size:0.8em;
 }
 
 

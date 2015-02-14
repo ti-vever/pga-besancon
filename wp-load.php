@@ -73,6 +73,7 @@ if ( file_exists( ABSPATH . 'wp-config.php') ) {
 }
 
 /* REDIRECT SI DANS BLOG RACINE */
+
 if(in_array(get_current_blog_id(), array(1,3)) && strpos($_SERVER['PHP_SELF'],'wp-admin') === false){
 	$lang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'],0,2);
 
