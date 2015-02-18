@@ -57,6 +57,17 @@ if ( version_compare( $GLOBALS['wp_version'], '3.6-alpha', '<' ) )
  *
  * @since Twenty Thirteen 1.0
  */
+
+// Désactiver les rétroliens vers son propre site
+function mes_pings( &$liens ) {
+    $home = get_option( 'home' );
+    foreach ( $liens as $l => $lien )
+        if ( 0 === strpos( $lien, $home ) )
+            unset($liens[$l]);
+}
+add_action( 'pre_ping', 'mes_pings' );
+
+
 function twentythirteen_setup() {
 	/*
 	 * Makes Twenty Thirteen available for translation.
@@ -337,7 +348,7 @@ function twentythirteen_entry_meta() {
 	}
 
 	// Post author
-	if ( 'post' == get_post_type() ) {
+	if ( 'post' == get_post_type() && false) {
 		printf( '<span class="author vcard"><a class="url fn n" href="%1$s" title="%2$s" rel="author">%3$s</a></span>',
 			esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ),
 			esc_attr( sprintf( __( 'View all posts by %s', 'twentythirteen' ), get_the_author() ) ),

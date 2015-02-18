@@ -32,7 +32,7 @@
 		</div><!-- .entry-meta -->
 	</header><!-- .entry-header -->
 
-	<?php if ( is_search() ) : // Only display Excerpts for Search ?>
+	<?php if ( is_search() || is_home() ) : // Only display Excerpts for Search and Listing ?>
 	<div class="entry-summary">
 		<?php the_excerpt(); ?>
 	</div><!-- .entry-summary -->
@@ -51,7 +51,7 @@
 	<?php endif; ?>
 
 	<footer class="entry-meta">
-		<?php if ( comments_open() && ! is_single() ) : ?>
+		<?php if ( comments_open() && ! is_single() && false ) : ?>
 			<div class="comments-link">
 				<?php comments_popup_link( '<span class="leave-reply">' . __( 'Leave a comment', 'twentythirteen' ) . '</span>', __( 'One comment so far', 'twentythirteen' ), __( 'View all % comments', 'twentythirteen' ) ); ?>
 			</div><!-- .comments-link -->
