@@ -2719,6 +2719,11 @@ blockquote:before{
 	font-size: 0.9em;
 }
 
+iframe#visite_virtuelle{
+	width:100%;
+	height:700px;
+}
+
 /**
  * 8.0 Media Queries
  * ----------------------------------------------------------------------------
@@ -2799,6 +2804,11 @@ blockquote:before{
 }
 
 @media (max-width: 999px) {
+
+	iframe#visite_virtuelle{
+		height:550px;
+	}
+
 	.site-title{
 		padding:0;
 	}
@@ -2909,6 +2919,11 @@ blockquote:before{
 
 /* Collapse oversized image and pulled images after iPad breakpoint. */
 @media (max-width: 767px) {
+
+	iframe#visite_virtuelle{
+		height:450px;
+	}
+
 	.site-header{
 		padding:20px 0 0;
 	}
@@ -2946,6 +2961,10 @@ blockquote:before{
 }
 
 @media (max-width: 643px) {
+	iframe#visite_virtuelle{
+		height:350px;
+	}
+
 	.page-header{
 		margin:0;
 	}
@@ -3156,6 +3175,10 @@ blockquote:before{
 
 /* Mobile devices */
 @media (max-width: 359px) {
+	iframe#visite_virtuelle{
+		height:250px;
+	}
+
 	.site-title {
 		font-size:1.5em;
 	}
