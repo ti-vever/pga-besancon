@@ -957,6 +957,12 @@ ul.nav-menu .focus > ul,
 	color:#44227A;
 }
 
+.sub-menu .current_page_item > a,
+.sub-menu .current_page_ancestor > a{
+	border-left:2px #EEE solid;
+	border-right:2px #EEE solid;
+}
+
 .menu-toggle {
 	display: none;
 }
