@@ -19,6 +19,7 @@
  */
 
 /** Define ABSPATH as this file's directory */
+
 define( 'ABSPATH', dirname(__FILE__) . '/' );
 
 error_reporting( E_CORE_ERROR | E_CORE_WARNING | E_COMPILE_ERROR | E_ERROR | E_WARNING | E_PARSE | E_USER_ERROR | E_USER_WARNING | E_RECOVERABLE_ERROR );
@@ -70,4 +71,21 @@ if ( file_exists( ABSPATH . 'wp-config.php') ) {
 	$die .= '<p><a href="' . $path . '" class="button button-large">' . __( "Create a Configuration File" ) . '</a>';
 
 	wp_die( $die, __( 'WordPress &rsaquo; Error' ) );
+}
+
+
+if(in_array(get_current_blog_id(),array(1,3)) && preg_match('/.*wp-(login|admin).*/',$_SERVER['REQUEST_URI']) === 0){ //Si la langue n'est pas définie
+	//$accepted_languages = array(2 => 'fr', 3 => 'de');
+	$accepted_languages = array(2 => 'fr');
+
+	$lang = strtolower(substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2));
+
+	if($blogid = array_search($lang,$accepted_languages)){
+		header("Location: ".get_site_url($blogid));
+	}
+	else {
+		header("Location: ".get_site_url(2));
+	}
+
+	exit();
 }

@@ -2677,6 +2677,12 @@ footer.entry-meta {
 	width:65%;
 }
 
+#article-accueil h1{
+	font-size: 1.5em;
+	font-weight: 300;
+	margin:0 0 30px;
+}
+
 aside#aside-accueil{
 	float:right;
 	width:35%;

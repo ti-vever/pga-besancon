@@ -581,8 +581,3 @@ function custom_excerpt($new_length = 20, $wrap = '<p></p>', $new_more = '[...]'
   
   echo $output;
 }
-
-function custom_rewrite_basic() {
-  add_rewrite_rule('http://www.pga-besancon.eu/fr/?p=33', 'noexist.php', 'top');
-}
-add_action('init', 'custom_rewrite_basic');
