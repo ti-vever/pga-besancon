@@ -1034,6 +1034,15 @@ ul.nav-menu .focus > ul,
 	width: 100%;
 }
 
+.entry-summary>a{
+	color:#000;
+	display: block;
+}
+
+.entry-summary>a:hover,.entry-summary>a:active{
+	color:#B38B37;
+}
+
 .sidebar .entry-header,
 .sidebar .entry-content,
 .sidebar .entry-summary,
@@ -2657,6 +2666,101 @@ footer.entry-meta {
 }
 
 /* CUSTOM */
+.center{
+	max-width: 1080px;
+	position:relative;
+	margin:0 auto;
+}
+
+#article-accueil{
+	float:left;
+	width:65%;
+}
+
+aside#aside-accueil{
+	float:right;
+	width:35%;
+	padding:40px 20px;
+	color:#FFF;
+}
+
+.encart-accueil{
+	padding:15px 15px;
+	text-align: center;
+}
+
+.encart-accueil>h1{
+	font-size: 1.5em;
+	font-weight: 300;
+	margin:0 0 15px;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+#encart-visite{
+	background: #7755A8;
+	border-top-left-radius: 25px;
+}
+
+#encart-visite img{
+	width: 100%;
+	margin-bottom:10px;
+}
+
+#encart-visite img.x2{
+	display: none;
+}
+
+#encart-visite img.x1{
+	display: block;
+}
+
+#encart-actualites{
+	background: #49A18B;
+	border-bottom-right-radius: 25px;
+	position: relative;
+}
+
+#encart-actualites>ul{
+	list-style: none;
+	margin:0 0 35px;
+	padding: 0;
+	text-align: left;
+}
+
+#encart-actualites>ul>li{
+	margin:0 0 20px;
+}
+
+#encart-actualites>ul>li>a{
+	color:#FFF;
+}
+
+#encart-actualites>ul>li>a:hover,#encart-actualites>ul>li>a:active{
+	color:#FFE0A0;
+}
+
+#encart-actualites>ul>li>a>span{
+	font-style: italic;
+	font-size: 0.8em;
+	display: block;
+}
+
+#encart-actualites>a{
+	color:#FFF;
+	background:#18745D;
+	border-bottom-right-radius:25px;
+	position: absolute;
+	bottom: 0;
+	left:0;
+	width: 100%;
+	padding:5px 0;
+}
+
+#encart-actualites>a:hover,#encart-actualites>a:active{
+	background: #74C0AD;
+}
+
 article.page,
 article.post{
 	max-width: 1080px;
@@ -2746,6 +2850,11 @@ iframe#steinpilze{
 	max-width: 550px;
 	position: relative;
 	margin: 0 auto;
+}
+
+article.type-post{
+	padding-top:10px;
+	padding-bottom:10px;
 }
 
 /**
@@ -2943,6 +3052,30 @@ iframe#steinpilze{
 
 /* Collapse oversized image and pulled images after iPad breakpoint. */
 @media (max-width: 767px) {
+	#article-accueil{
+		float:left;
+		width:100%;
+		padding-bottom: 0;
+	}
+
+	#article-accueil.hentry{
+		padding-bottom: 0;
+	}
+
+	#encart-visite img.x2{
+		display: block;
+	}
+
+	#encart-visite img.x1{
+		display: none;
+	}
+
+	aside#aside-accueil{
+		float:right;
+		width:100%;
+		padding:0 20px 60px;
+		color:#FFF;
+	}
 
 	iframe#visite_virtuelle{
 		height:450px;
@@ -3195,10 +3328,23 @@ iframe#steinpilze{
 		padding-left: 0;
 		width: auto;
 	}
+
+	footer>div>span{
+		width: 100%;
+		text-align: center;
+	}
 }
 
 /* Mobile devices */
 @media (max-width: 359px) {
+	#encart-visite img.x2{
+		display: none;
+	}
+
+	#encart-visite img.x1{
+		display: block;
+	}
+
 	iframe#visite_virtuelle{
 		height:250px;
 	}

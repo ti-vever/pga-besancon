@@ -34,7 +34,7 @@
 
 	<?php if ( is_search() || is_home() ) : // Only display Excerpts for Search and Listing ?>
 	<div class="entry-summary">
-		<?php the_excerpt(); ?>
+		<a href="<?php the_permalink(); ?>"><?php custom_excerpt(55, false); ?></a>
 	</div><!-- .entry-summary -->
 	<?php else : ?>
 	<div class="entry-content">

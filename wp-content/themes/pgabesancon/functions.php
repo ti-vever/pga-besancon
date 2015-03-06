@@ -564,3 +564,25 @@ function twentythirteen_customize_preview_js() {
 	wp_enqueue_script( 'twentythirteen-customizer', get_template_directory_uri() . '/js/theme-customizer.js', array( 'customize-preview' ), '20141120', true );
 }
 add_action( 'customize_preview_init', 'twentythirteen_customize_preview_js' );
+
+
+function custom_excerpt($new_length = 20, $wrap = '<p></p>', $new_more = '[...]') {
+  add_filter('excerpt_length', function () use ($new_length) {
+    return $new_length;
+  }, 999);
+  add_filter('excerpt_more', function () use ($new_more) {
+    return $new_more;
+  });
+  $output = get_the_excerpt();
+  $output = apply_filters('wptexturize', $output);
+  $output = apply_filters('convert_chars', $output);
+  if($wrap)
+  	$output = preg_replace('/(.+)(><)(.+)/','$1>'.$output.'<$3',$wrap);
+  
+  echo $output;
+}
+
+function custom_rewrite_basic() {
+  add_rewrite_rule('http://www.pga-besancon.eu/fr/?p=33', 'noexist.php', 'top');
+}
+add_action('init', 'custom_rewrite_basic');
