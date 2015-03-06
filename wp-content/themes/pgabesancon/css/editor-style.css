@@ -54,7 +54,6 @@ h4,
 h5,
 h6 {
 	clear: both;
-	font-family: Bitter, Georgia, serif;
 	line-height: 1.3;
 }
 
@@ -65,27 +64,36 @@ h1 {
 
 h2 {
 	font-size: 30px;
-	margin: 25px 0;
+	margin: 50px 0 15px;
+	font-weight: 300;
+}
+
+h2:first-of-type{
+	margin: 20px 0 15px;
 }
 
 h3 {
 	font-size: 22px;
 	margin: 22px 0;
+	font-weight: 300;
 }
 
 h4 {
 	font-size: 20px;
 	margin: 25px 0;
+	font-weight: 300;
 }
 
 h5 {
 	font-size: 18px;
 	margin: 30px 0;
+	font-weight: 300;
 }
 
 h6 {
 	font-size: 16px;
 	margin: 36px 0;
+	font-weight: 300;
 }
 
 hr {
@@ -348,11 +356,9 @@ img {
 }
 
 .wp-caption {
-	background: transparent;
-	border: none;
-	margin: 0;
-	padding: 0;
-	text-align: left;
+	max-width: 100%;
+	width:initial !important;
+	text-align: left !important;
 }
 
 .html5-captions .wp-caption {
@@ -390,14 +396,14 @@ img {
 }
 
 .wp-caption .wp-caption-text,
+.entry-caption,
+.gallery-caption,
 .wp-caption-dd {
 	color: #220e10;
-	font-size: 18px;
+	font-size: 0.8em;
 	font-style: italic;
 	font-weight: 300;
-	line-height: 1.5;
-	margin-bottom: 24px;
-	padding: 0;
+	margin: 0 0 24px;
 }
 
 .mceTemp + ul,

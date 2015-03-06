@@ -24,11 +24,6 @@ function restart() {
     player.currentTime = 0;
 }
 
-function skip(value) {
-	var player = $('video#visite').get(0);
-    player.currentTime += value;
-}
-
 function reverse(){
 	var player = $('video#visite').get(0);
 
@@ -230,8 +225,12 @@ $(document).ready(function(){
 		);
 	})
 
+	$('#bottom>a').on('click',function(){
+		return false;
+	})
+
 	$('.skip').on('click',function(){
-		point = stop_point.length-3;
+		point = $(this).attr('data-point');
 		setPoint(point);
 	})
 })
