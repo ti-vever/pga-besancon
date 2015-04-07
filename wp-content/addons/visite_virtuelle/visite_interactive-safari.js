@@ -2,7 +2,6 @@ var stop_point;
 var canplaythrough = false;
 var canplaythroughboth = false;
 var hasStarted = false;
-var alreadyPlaying = false;
 var point;
 var default_volume = 0.5;
 var old_mousex = 0;
@@ -90,57 +89,42 @@ $(document).ready(function(){
 
 	var player = $('video#visite').get(0);
 	var audio = $('audio#backtrack').get(0);
-
-	player.load();
-	audio.load();
-	
 	player.volume = 0;
 	audio.volume = default_volume;
-	
-	player.onprogress = function(){
-		//console.log('video downloading');
-	};
 
-	player.addEventListener('canplaythrough', function(){ 
-		console.log('video ready');
+	player.addEventListener("canplaythrough",function(){
 		if(canplaythrough){
 			$('#loader').fadeOut(800);
 
 			canplaythroughboth = true;
 
-			if(hasStarted && !alreadyPlaying){
+			if(hasStarted){
 				player.play();
 				audio.play();
-
-				alreadyPlaying = true;
 			}
 		}
 
 		canplaythrough = true;
-	})
+	}, false)
 
-	player.onwaiting = function(){
-		console.log('video waiting');
+	player.addEventListener("onwaiting",function(){
 		$('#loader').fadeIn(300);
-	}
+	}, false)
 
-	audio.addEventListener('canplaythrough', function(){
-		console.log('audio ready');
+	audio.addEventListener("canplaythrough",function(){
 		if(canplaythrough){
 			$('#loader').fadeOut(800);
 			
 			canplaythroughboth = true;
-			
-			if(hasStarted && !alreadyPlaying){
+
+			if(hasStarted){
 				player.play();
 				audio.play();
-
-				alreadyPlaying = true;
 			}
 		}
 
 		canplaythrough = true;
-	})
+	}, false)
 
 	$('video#visite').on('timeupdate', function(){
 		if(point < stop_point.length && stop_point[point]['time'] < player.currentTime){
@@ -165,7 +149,7 @@ $(document).ready(function(){
 	})
 
 	$('#player_visite').on('mousemove', function(event){
-		if(player.paused && hasStarted && canplaythroughboth){
+		if(player.paused && hasStarted){
 			if(point > 2){
 				if(point <= stop_point.length)
 					$('.showit').fadeIn(300);
@@ -174,7 +158,7 @@ $(document).ready(function(){
 				$('.showit:not(#left)').fadeIn(300);
 		}
 
-		if(hasStarted && canplaythroughboth && Math.abs(event.pageX - old_mousex) > 20 && Math.abs(event.pageY - old_mousey) > 20){
+		if(hasStarted && Math.abs(event.pageX - old_mousex) > 20 && Math.abs(event.pageY - old_mousey) > 20){
 			$('#sound').fadeIn(300);
 			old_mousex = 0;
 			old_mousey = 0;
@@ -219,20 +203,18 @@ $(document).ready(function(){
 		return false;
 	})
 
-	$('#play a').on('click',function(){	
-		if(canplaythroughboth){
-			player.play();
-			audio.play();
-
-			alreadyPlaying = true;
-		}
-		else{
-			$('#loader').fadeIn(300);
-		}
+	$('#play a').on('click',function(){
+		// player.play();
+		// audio.play();
 
 		hasStarted = true;
 
 		$('#play').fadeOut(300);
+
+		if(canplaythroughboth){
+			player.play();
+			audio.play();
+		}
 
 		return false;
 	})

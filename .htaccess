@@ -1,3 +1,5 @@
+AddType video/mp4 .mp4
+
 # BEGIN WordPress
 RewriteEngine On
 RewriteBase /
